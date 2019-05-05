@@ -153,10 +153,18 @@ table.heroT {
   .body .fab {
     color: black; }
 
+@media only screen and (max-width: 768px) {
+  h1.herotxt {
+    font-size: 4em; }
+
+  h2.herotxt {
+    font-size: 2em; }
+
+  .body {
+    font-size: 1.4em; } }
 #gototop {
   background-color: #0f99d5;
   font-weight: 900;
-  width: 7em;
   padding: .625em .5em;
   font-size: 1.2em;
   position: fixed;
