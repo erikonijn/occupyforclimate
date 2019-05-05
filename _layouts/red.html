@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ page.title | append:" - CivEx" }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/red.css">
+    <link href='https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    {% include titlebar.html %}
+    <div class="hero">
+        <div class="wrap">
+            <h1 class="herotxt">Join the server: <a>server.ip.here</a></h1>
+            <h2 class="herotxt">Creative Server: <a>server.ip.here</a></h2>
+            <table class="heroT">
+                <tr>
+                    <td class="ts"><a href="ts3server://ts.vanillacraft.net/?nickname=Anonymous" target="_blank"><p class="Tttl">teamspeak</p><p>ts.vanillacraft.net</p></a></td>
+                    <td class="reddit"><a href="https://civex.reddit.com" target="_blank"><p class="Tttl">subreddit</p><p>civex.reddit.com</p></a></td>
+                </tr>
+                <tr>
+                <tr>
+                    <td class="ticket"><a href="https://vanillacraft.net/ticket/" target="_blank"><p class="Tttl">banned? bug report?</p><p>send a ticket!</p></a></td>
+                    <td class="mail"><a href="https://www.reddit.com/message/compose?to=%2Fr%2FCivEx" target="_blank"><p class="Tttl">got a question? want a flair?</p><p>send us a modmail!</p></a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    {% include menubar.html %}
+    <div id="gototop"><a href="#">Back to top &#8593;</a></div>
+    <div class="body">
+        <div class="wrap">
+            {% include home.html %}
+        </div>
+    </div>
+</body>
+</html>

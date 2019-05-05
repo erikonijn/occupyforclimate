@@ -1,0 +1,292 @@
+---
+---
+
+//Variables
+$prime: #d3291f; //primary color
+$prime2: #9e1f17; //darker primary color, used for hover effect, click effects, etc
+$secondary: #ff8f00;
+$secondary2: #bf6b00;
+$tertiary: #8f00ff;
+$tertiary2: #6b00bf;
+
+@mixin border-box() {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+//    display: flex;
+    min-height: 100vh;
+    font-family: Product Sans;
+    background-color: #fff;
+    color: #383838;
+}
+
+a {
+    text-decoration: none;
+}
+
+.titlebar {
+    height: 4em;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    
+    a {
+        color: $secondary;
+        font-weight: 900;
+        font-size: 3.5em;
+    }
+}
+
+
+
+.hero {
+    box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.15);
+    background-color: #7a98cc;
+    background-image: url(hero.jpg);
+//    background-position: -50%;
+    background-size: cover;
+    width: 100%;
+    height: 40em;
+    text-align: center;
+    z-index: 999;
+    position: relative;
+        
+    .wrap {
+        display: inline-block;
+        width: 70%;
+        max-width:66em;
+//        border: 1px solid red;
+        text-align: left;
+        padding-top: 4em;
+    }
+}
+
+.herotxt {
+    color: #fff;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+    font-weight: lighter;
+    
+    a {
+        color: $prime;
+    }
+}
+
+h1.herotxt {
+    font-weight: 700;
+    font-size: 4em;
+}
+
+h2.herotxt {
+    font-size: 2.5em;
+}
+
+table.heroT {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 5%;
+    
+    td {
+        text-align: center;
+//        border: 1px solid red;
+        width: 50%;
+        padding: 1.5em 0;
+//        overflow: hidden;
+        
+        a {
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* align horizontal */
+            align-items: center; /* align vertical */
+            color: #fff;
+            text-decoration: none;
+            background-color: $prime;
+            overflow: visible;
+            width: 90%;
+            height: 9em;
+            line-height: 2.25em;
+            box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25), inset 0px 0em 0px $secondary;
+            transition: box-shadow .1s;
+            
+            p {
+                font-size: 2.5em;
+                font-weight: 900;
+            }
+            
+            p.Tttl {
+                font-size: 2em;
+                font-weight: 100;
+            }
+            
+            &:hover {
+                box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25), inset 0px 9em 0px $secondary;
+            }
+        }
+    }
+    
+    .reddit a, .ticket a{
+        background-color: $secondary;
+            
+        &:hover {
+            box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25), inset 0px -9em 0px $prime;
+        }
+    }
+}
+
+.menu {
+    background-color: $prime;
+    min-height: 4em;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+    position: relative;
+    overflow: visible;
+    
+    a {
+        color: white;
+        font-size: 3.1em;
+        padding: 0 .5em;
+        @include border-box();
+        height: 100%;
+        cursor: pointer;
+        
+        &.links {
+            display: none;
+        }
+        
+        &.donate {
+            background-color: $secondary;
+            border-top: 1px solid $secondary;
+            border-bottom: 1px solid $secondary;
+            
+            &:hover {
+                background-color: $secondary2;
+                border-top: 1px solid $secondary2;
+                border-bottom: 1px solid $secondary2;
+            }
+        }
+        
+        &.blog {
+            background-color: $tertiary;
+            border-top: 1px solid $tertiary;
+            border-bottom: 1px solid $tertiary;
+            
+            &:hover {
+                background-color: $tertiary2;
+                border-top: 1px solid $tertiary2;
+                border-bottom: 1px solid $tertiary2;
+            }
+        }
+        
+        &:hover {
+            background-color: $prime2;
+        }
+    }
+}
+
+.body {
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+    
+    .wrap {
+        width: 70%;
+        max-width:33em;
+        text-align: left;
+        display: inline-block;
+        padding-bottom: 2.5em;
+    }
+    
+    h1 {
+        padding: .35em 0 .05em 0;
+        // font size becomes 4em, because browser h1 default size is 2em and now we're assigning it 2em again. 2*2=4
+    }
+    
+    p, li {
+        padding-bottom: .1em;
+    }
+    
+    a {
+        color: $secondary;
+        
+        &:active {
+            color: #prime2;
+        }
+    }
+}
+
+#gototop {
+    background-color: $secondary;
+    font-weight: 900;
+    width: 6em;
+    padding: .625em .5em;
+    font-size: 1.2em;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    margin-top: 2em;
+    margin-right: 1.5em;
+    border-radius: 1px;
+    
+    a {
+        color: white;
+    }
+    
+    &:active {
+        background-color: $secondary2;
+    }
+}
+
+@media only screen and (max-width: 1070px) {  //collapse menu at width 1420px or smaller (that's when menu breaks)
+    .menu {
+        display: block;
+        .menuL {
+            display: block;
+            text-align: center;
+        }
+        a.links {
+            display: block;
+        }
+    }
+    .hero {
+        height: auto;
+        
+        .wrap {
+            padding-top: 3em;
+        }
+        .heroT {
+            display: none;
+        }
+        h1.herotxt {
+            font-size: 3em;
+        }
+        h2.herotxt {
+            font-size: 2em;
+            margin-bottom: 1em;
+        }
+    }
+    .body {
+        font-size: 1.5em; //this also sets h1 sizes to 3em, bc 2*1.5=3
+    }
+}
+
+
+
+
+
+

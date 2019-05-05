@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  min-height: 100vh;
+  font-family: Product Sans;
+  background-color: #fff;
+  color: #383838; }
+
+a {
+  text-decoration: none; }
+
+.titlebar {
+  height: 4em;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  position: relative; }
+  .titlebar a {
+    color: #ff8f00;
+    font-weight: 900;
+    font-size: 3.5em; }
+
+.hero {
+  box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.15);
+  background-color: #7a98cc;
+  background-image: url(hero.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 40em;
+  text-align: center;
+  z-index: 999;
+  position: relative; }
+  .hero .wrap {
+    display: inline-block;
+    width: 70%;
+    max-width: 66em;
+    text-align: left;
+    padding-top: 4em; }
+
+.herotxt {
+  color: #fff;
+  text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+  font-weight: lighter; }
+  .herotxt a {
+    color: #d3291f; }
+
+h1.herotxt {
+  font-weight: 700;
+  font-size: 4em; }
+
+h2.herotxt {
+  font-size: 2.5em; }
+
+table.heroT {
+  width: 100%;
+  border-collapse: collapse;
+  margin-left: 5%; }
+  table.heroT td {
+    text-align: center;
+    width: 50%;
+    padding: 1.5em 0; }
+    table.heroT td a {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* align horizontal */
+      align-items: center;
+      /* align vertical */
+      color: #fff;
+      text-decoration: none;
+      background-color: #d3291f;
+      overflow: visible;
+      width: 90%;
+      height: 9em;
+      line-height: 2.25em;
+      box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25), inset 0px 0em 0px #ff8f00;
+      transition: box-shadow .1s; }
+      table.heroT td a p {
+        font-size: 2.5em;
+        font-weight: 900; }
+      table.heroT td a p.Tttl {
+        font-size: 2em;
+        font-weight: 100; }
+      table.heroT td a:hover {
+        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25), inset 0px 9em 0px #ff8f00; }
+  table.heroT .reddit a, table.heroT .ticket a {
+    background-color: #ff8f00; }
+    table.heroT .reddit a:hover, table.heroT .ticket a:hover {
+      box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25), inset 0px -9em 0px #d3291f; }
+
+.menu {
+  background-color: #d3291f;
+  min-height: 4em;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align horizontal */
+  align-items: center;
+  /* align vertical */
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+  position: relative;
+  overflow: visible; }
+  .menu a {
+    color: white;
+    font-size: 3.1em;
+    padding: 0 .5em;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+    height: 100%;
+    cursor: pointer; }
+    .menu a.links {
+      display: none; }
+    .menu a.donate {
+      background-color: #ff8f00;
+      border-top: 1px solid #ff8f00;
+      border-bottom: 1px solid #ff8f00; }
+      .menu a.donate:hover {
+        background-color: #bf6b00;
+        border-top: 1px solid #bf6b00;
+        border-bottom: 1px solid #bf6b00; }
+    .menu a.blog {
+      background-color: #8f00ff;
+      border-top: 1px solid #8f00ff;
+      border-bottom: 1px solid #8f00ff; }
+      .menu a.blog:hover {
+        background-color: #6b00bf;
+        border-top: 1px solid #6b00bf;
+        border-bottom: 1px solid #6b00bf; }
+    .menu a:hover {
+      background-color: #9e1f17; }
+
+.body {
+  text-align: center;
+  width: 100%;
+  font-size: 2em;
+  padding: 0;
+  margin: 0; }
+  .body .wrap {
+    width: 70%;
+    max-width: 33em;
+    text-align: left;
+    display: inline-block;
+    padding-bottom: 2.5em; }
+  .body h1 {
+    padding: .35em 0 .05em 0; }
+  .body p, .body li {
+    padding-bottom: .1em; }
+  .body a {
+    color: #ff8f00; }
+    .body a:active {
+      color: #prime2; }
+
+#gototop {
+  background-color: #ff8f00;
+  font-weight: 900;
+  width: 6em;
+  padding: .625em .5em;
+  font-size: 1.2em;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  margin-top: 2em;
+  margin-right: 1.5em;
+  border-radius: 1px; }
+  #gototop a {
+    color: white; }
+  #gototop:active {
+    background-color: #bf6b00; }
+
+@media only screen and (max-width: 1070px) {
+  .menu {
+    display: block; }
+    .menu .menuL {
+      display: block;
+      text-align: center; }
+    .menu a.links {
+      display: block; }
+
+  .hero {
+    height: auto; }
+    .hero .wrap {
+      padding-top: 3em; }
+    .hero .heroT {
+      display: none; }
+    .hero h1.herotxt {
+      font-size: 3em; }
+    .hero h2.herotxt {
+      font-size: 2em;
+      margin-bottom: 1em; }
+
+  .body {
+    font-size: 1.5em; } }

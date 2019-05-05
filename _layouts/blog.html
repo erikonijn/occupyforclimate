@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {% include headinfo.html %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/blog.css">
+</head>
+<body>
+    {% include header.html %}
+    <div id="gototop"><a href="#">Back to top &#8593;</a></div>
+    <div class="body">
+        <div class="wrap">
+            {% include blog.html %}
+        </div>
+    </div>
+</body>
+</html>

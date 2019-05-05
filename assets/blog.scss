@@ -1,0 +1,20 @@
+---
+---
+
+.body {
+    margin-top: .7em;
+    
+    h1 a {
+        color: #383838;
+        
+        &:hover {
+            color: #3498db;
+        }
+    }
+}
+
+.date {
+    margin-bottom: .3em;
+    color: #888;
+    font-size: .75em;
+}
