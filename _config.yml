@@ -1,5 +1,5 @@
 ---
-title: CivEx
+title: Occupy for Climate
 timezone: UTC
 collections:
   posts:
@@ -16,10 +16,10 @@ defaults:
     layout: default
     permalink: "/:basename:output_ext"
 email: e@ma.il
-description: 'civex.
+description: 'Occupy for Climate.
 
 '
-baseurl: '/cx'
+baseurl: '/occupyforclimate'
 url: ''
 permalink: pretty
 markdown: kramdown
