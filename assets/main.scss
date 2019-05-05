@@ -2,7 +2,7 @@
 ---
 
 //Variables
-$prime: #3498db; //primary color
+$prime: #0f99d5; //primary color
 $prime2: #2f87c2; //darker primary color, used for hover effect, click effects, etc
 $secondary: #db7734;
 $tertiary: #4eb943;
@@ -22,9 +22,11 @@ $tertiary2: #3b8b32;
 body {
 //    display: flex;
     min-height: 100vh;
-    font-family: Product Sans;
+    font-family: Futura;
+    text-transform: uppercase;
     background-color: #fff;
-    color: #383838;
+//    color: #383838;
+    color: #000;
 }
 
 a {
@@ -55,25 +57,28 @@ a {
     background-position: -50%;
     background-size: cover;
     width: 100%;
-    height: 40em;
+    height: 100vh;
     text-align: center;
     z-index: 999;
     position: relative;
         
     .wrap {
         display: inline-block;
-        width: 60%;
-//        border: 1px solid red;
-        text-align: left;
-        padding-top: 4em;
+        width: 100%;
+        //        border: 1px solid red;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+//        padding-top: 4em;
     }
 }
 
 .herotxt {
     color: #fff;
-    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
-    font-weight: lighter;
-    
+    line-height: 1em;
+
     a {
         color: $secondary;
     }
@@ -81,11 +86,11 @@ a {
 
 h1.herotxt {
     font-weight: 700;
-    font-size: 4em;
+    font-size: 8em;
 }
 
 h2.herotxt {
-    font-size: 2.5em;
+    font-size: 4em;
 }
 
 table.heroT {
@@ -182,38 +187,46 @@ table.heroT {
 .body {
     text-align: center;
     width: 100%;
-    font-size: 2em;
+    height: 100vh;
+    font-size: 2.2em;
     padding: 0;
     margin: 0;
     
     .wrap {
-        width: 60%;
-        text-align: left;
+        width: 50%;
+//        text-align: left;
         display: inline-block;
         padding-bottom: 2.5em;
     }
     
     h1 {
-        padding: .35em 0 .05em 0;
+        padding: .6em 0 .05em 0;
+        color: #be2927;
     }
     
     p, li {
         padding-bottom: .1em;
+        line-height: 1.5em;
     }
     
-    a {
+    strong {
         color: $prime;
-        
-        &:active {
-            color: #2772a4;
-        }
+    }
+    
+    em {
+        font-size: 1.5em;
+        font-style: normal;
+    }
+    
+    .fab {
+        color: black;
     }
 }
 
 #gototop {
     background-color: $prime;
     font-weight: 900;
-    width: 6em;
+    width: 7em;
     padding: .625em .5em;
     font-size: 1.2em;
     position: fixed;
