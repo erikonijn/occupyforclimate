@@ -136,7 +136,8 @@ table.heroT {
   padding: 0;
   margin: 0; }
   .body .wrap {
-    width: 50%;
+    width: 90%;
+    max-width: 28em;
     display: inline-block;
     padding-bottom: 2.5em; }
   .body h1 {
@@ -161,7 +162,10 @@ table.heroT {
     font-size: 2em; }
 
   .body {
-    font-size: 1.4em; } }
+    font-size: 1.4em; }
+
+  #gototop {
+    display: none; } }
 #gototop {
   background-color: #0f99d5;
   font-weight: 900;
