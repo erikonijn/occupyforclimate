@@ -17,8 +17,9 @@ a {
   z-index: 2;
   width: 100%;
   text-align: center;
-  background-color: white;
-  position: relative; }
+  background-color: #fff;
+  position: relative;
+  padding: 1em 0; }
   .titlebar a {
     color: #0f99d5;
     font-weight: 900;
@@ -48,7 +49,7 @@ a {
   color: #fff;
   line-height: 1em; }
   .herotxt a {
-    color: #db7734; }
+    color: #be2927; }
 
 h1.herotxt {
   font-weight: 700;
@@ -94,7 +95,7 @@ table.heroT {
       box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25), inset 0px -9em 0px #4eb943; }
 
 .menu {
-  background-color: #db7734;
+  background-color: #be2927;
   height: 4em;
   z-index: 2;
   width: 100%;
@@ -120,7 +121,7 @@ table.heroT {
     .menu a.donate {
       background-color: #0f99d5; }
       .menu a.donate:hover {
-        background-color: #2f87c2; }
+        background-color: #0d86ba; }
     .menu a.blog {
       background-color: #4eb943; }
       .menu a.blog:hover {
@@ -153,6 +154,9 @@ table.heroT {
     font-style: normal; }
   .body .fab {
     color: black; }
+  .body.page {
+    height: 100%;
+    margin-top: 0; }
 
 @media only screen and (max-width: 768px) {
   h1.herotxt {
@@ -166,6 +170,24 @@ table.heroT {
 
   #gototop {
     display: none; } }
+.action .amod {
+  width: 10.5em;
+  background-color: red;
+  display: inline-block;
+  margin: .6em .4em; }
+  .action .amod a {
+    padding: .45em 0;
+    display: inline-block;
+    width: 100%;
+    background-color: #0f99d5;
+    color: #fff;
+    font-size: 2.2em; }
+    .action .amod a:hover {
+      background-color: #fff;
+      color: #0f99d5; }
+    .action .amod a:active {
+      color: #0d86ba; }
+
 #gototop {
   background-color: #0f99d5;
   font-weight: 900;
@@ -181,4 +203,4 @@ table.heroT {
   #gototop a {
     color: white; }
   #gototop:active {
-    background-color: #2f87c2; }
+    background-color: #0d86ba; }

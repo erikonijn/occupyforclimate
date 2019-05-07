@@ -3,8 +3,9 @@
 
 //Variables
 $prime: #0f99d5; //primary color
-$prime2: #2f87c2; //darker primary color, used for hover effect, click effects, etc
-$secondary: #db7734;
+$prime2: #0d86ba; //darker primary color, used for hover effect, click effects, etc
+//$prime2: #2f87c2; //darker primary color, used for hover effect, click effects, etc
+$secondary: #be2927;
 $tertiary: #4eb943;
 $tertiary2: #3b8b32;
 
@@ -38,10 +39,13 @@ a {
     z-index: 2;
     width: 100%;
     text-align: center;
-    background-color: white;
+//    background-color: #191919;
+    background-color: #fff;
     position: relative;
+    padding: 1em 0;
     
     a {
+//        color: #fff;
         color: $prime;
         font-weight: 900;
         font-size: 3.5em;
@@ -203,7 +207,7 @@ table.heroT {
     
     h1 {
         padding: .6em 0 .05em 0;
-        color: #be2927;
+        color: $secondary;
     }
     
     p, li {
@@ -222,6 +226,11 @@ table.heroT {
     
     .fab {
         color: black;
+    }
+    
+    &.page {
+        height: 100%;
+        margin-top: 0;
     }
 }
 
@@ -243,6 +252,35 @@ table.heroT {
         display: none;
     }
  
+}
+
+.action {
+//    background-color: green;
+    
+    .amod {
+        width: 10.5em;
+        background-color: red;
+        display: inline-block;
+        margin: .6em .4em;
+        
+        a {
+            padding: .45em 0;
+            display: inline-block;
+            width: 100%;
+            background-color: $prime;
+            color: #fff;
+            font-size: 2.2em;
+            
+            &:hover {
+                background-color: #fff;
+                color: $prime;
+            }
+            
+            &:active {
+                color: $prime2;
+            }
+        }
+    }
 }
 
 #gototop {
