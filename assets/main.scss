@@ -2,10 +2,12 @@
 ---
 
 //Variables
-$prime: #0f99d5; //primary color
-$prime2: #0d86ba; //darker primary color, used for hover effect, click effects, etc
-//$prime2: #2f87c2; //darker primary color, used for hover effect, click effects, etc
-$secondary: #be2927;
+//$prime: #0f99d5;
+$prime: #13972b; //primary color
+//$prime2: #0d86ba;
+$prime2: #167928; //darker primary color, used for hover effect, click effects, etc
+$secondary: hsl(1, 75%, 50%);
+//$secondary: #be2927;
 $tertiary: #4eb943;
 $tertiary2: #3b8b32;
 
@@ -35,7 +37,7 @@ a {
 }
 
 .titlebar {
-    height: 4em;
+    min-height: 4em;
     z-index: 2;
     width: 100%;
     text-align: center;
@@ -83,10 +85,6 @@ a {
 .herotxt {
     color: #fff;
     line-height: 1em;
-
-    a {
-        color: $secondary;
-    }
 }
 
 h1.herotxt {
@@ -207,7 +205,10 @@ table.heroT {
     
     h1 {
         padding: .6em 0 .05em 0;
-        color: $secondary;
+//        color: $secondary;
+        color: $prime;
+//        text-decoration: underline;
+//        text-decoration-color: $prime;
     }
     
     p, li {
@@ -219,7 +220,11 @@ table.heroT {
         color: $prime;
     }
     
-    em {
+    .sec strong {
+        color: $secondary;
+    }
+    
+    .big {
         font-size: 1.5em;
         font-style: normal;
     }
@@ -231,6 +236,44 @@ table.heroT {
     &.page {
         height: 100%;
         margin-top: 0;
+    }
+}
+
+.page {
+    .wrap {
+        text-align: left;
+    }
+    
+    h1 {
+        color: black;
+        text-decoration: underline;
+        text-decoration-color: $prime;
+    }
+    
+    p, li {
+        line-height: 1.4em;
+        margin-bottom: 0.2em;
+        font-family: Permian;
+        text-transform: none;
+        font-size: .8em;
+    }
+    
+    li {
+        margin-left: 2em;
+    }
+    
+    a {
+        color: #fff;
+        background-color: $prime;
+        font-family: Futura;
+        text-transform: uppercase;
+        padding: 0 .2em;
+        
+        &:hover {
+//            color: #000;
+            background-color: #fff;
+            color: $prime;
+        }
     }
 }
 
@@ -279,6 +322,11 @@ table.heroT {
             &:active {
                 color: $prime2;
             }
+        }
+        
+        &.wide {
+            max-width: 22.2em;
+            width: 90%;
         }
     }
 }

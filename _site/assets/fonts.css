@@ -2,3 +2,15 @@
   font-family: Futura;
   src: url("FuturaStd-CondensedExtraBd.otf");
   font-weight: 900; }
+@font-face {
+  font-family: Permian;
+  src: url("PermianSerifTypeface.otf");
+  font-weight: normal; }
+@font-face {
+  font-family: Permian;
+  src: url("PermianSerifTypeface-Bold.otf");
+  font-weight: bold; }
+@font-face {
+  font-family: Permian;
+  src: url("PermianSerifTypeface-Italic.otf");
+  font-style: italic; }

@@ -13,7 +13,7 @@ a {
   text-decoration: none; }
 
 .titlebar {
-  height: 4em;
+  min-height: 4em;
   z-index: 2;
   width: 100%;
   text-align: center;
@@ -21,7 +21,7 @@ a {
   position: relative;
   padding: 1em 0; }
   .titlebar a {
-    color: #0f99d5;
+    color: #13972b;
     font-weight: 900;
     font-size: 3.5em; }
 
@@ -48,8 +48,6 @@ a {
 .herotxt {
   color: #fff;
   line-height: 1em; }
-  .herotxt a {
-    color: #be2927; }
 
 h1.herotxt {
   font-weight: 700;
@@ -95,7 +93,7 @@ table.heroT {
       box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25), inset 0px -9em 0px #4eb943; }
 
 .menu {
-  background-color: #be2927;
+  background-color: #df2320;
   height: 4em;
   z-index: 2;
   width: 100%;
@@ -119,9 +117,9 @@ table.heroT {
     height: 100%;
     cursor: pointer; }
     .menu a.donate {
-      background-color: #0f99d5; }
+      background-color: #13972b; }
       .menu a.donate:hover {
-        background-color: #0d86ba; }
+        background-color: #167928; }
     .menu a.blog {
       background-color: #4eb943; }
       .menu a.blog:hover {
@@ -143,13 +141,15 @@ table.heroT {
     padding-bottom: 2.5em; }
   .body h1 {
     padding: .6em 0 .05em 0;
-    color: #be2927; }
+    color: #13972b; }
   .body p, .body li {
     padding-bottom: .1em;
     line-height: 1.5em; }
   .body strong {
-    color: #0f99d5; }
-  .body em {
+    color: #13972b; }
+  .body .sec strong {
+    color: #df2320; }
+  .body .big {
     font-size: 1.5em;
     font-style: normal; }
   .body .fab {
@@ -157,6 +157,30 @@ table.heroT {
   .body.page {
     height: 100%;
     margin-top: 0; }
+
+.page .wrap {
+  text-align: left; }
+.page h1 {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #13972b; }
+.page p, .page li {
+  line-height: 1.4em;
+  margin-bottom: 0.2em;
+  font-family: Permian;
+  text-transform: none;
+  font-size: .8em; }
+.page li {
+  margin-left: 2em; }
+.page a {
+  color: #fff;
+  background-color: #13972b;
+  font-family: Futura;
+  text-transform: uppercase;
+  padding: 0 .2em; }
+  .page a:hover {
+    background-color: #fff;
+    color: #13972b; }
 
 @media only screen and (max-width: 768px) {
   h1.herotxt {
@@ -179,17 +203,20 @@ table.heroT {
     padding: .45em 0;
     display: inline-block;
     width: 100%;
-    background-color: #0f99d5;
+    background-color: #13972b;
     color: #fff;
     font-size: 2.2em; }
     .action .amod a:hover {
       background-color: #fff;
-      color: #0f99d5; }
+      color: #13972b; }
     .action .amod a:active {
-      color: #0d86ba; }
+      color: #167928; }
+  .action .amod.wide {
+    max-width: 22.2em;
+    width: 90%; }
 
 #gototop {
-  background-color: #0f99d5;
+  background-color: #13972b;
   font-weight: 900;
   padding: .625em .5em;
   font-size: 1.2em;
@@ -203,4 +230,4 @@ table.heroT {
   #gototop a {
     color: white; }
   #gototop:active {
-    background-color: #0d86ba; }
+    background-color: #167928; }
