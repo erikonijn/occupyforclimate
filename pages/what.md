@@ -1,6 +1,6 @@
 ---
-title: HOW?
-permalink: "/how"
+title: WHAT?
+permalink: "/what"
 layout: page
 category: Home
 ---

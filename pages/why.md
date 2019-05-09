@@ -5,4 +5,13 @@ layout: page
 category: Home
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida, sapien sed fermentum tempus, leo felis consequat felis, sed accumsan elit sem non augue. Aenean aliquet, nisi finibus eleifend semper, nulla lacus tincidunt arcu, in finibus nibh mi at eros. Proin laoreet arcu arcu, id convallis urna gravida at. Integer vestibulum pretium sem, lacinia blandit diam posuere non. Duis vel massa id justo malesuada scelerisque. Proin vitae massa sed nisi accumsan varius eget sit amet lectus. Vestibulum eget velit orci.
+***We are facing a climate emergency.*** Our very own future lives are at stake. The government doesn't take the necessary measures to tackle climate breakdown.
+
+If the truth (science and common sense) are not enough to make you realise urgent and radical action on climate change is necessary then we have no other choice than to disobey to oblige the government to react. We cannot stay calm in the face of climate change and all the repercussions it will have on our lives and our children's lives.
+
+Our goals are to:
+ - **annoy:** to get the attention and show our dissatisfaction
+ - **mobilise:** to create a movement, to empower more and stronger action amongst the People, and to raise solidarity between citizens
+ - **pressure:** to make the government take action.
+ 
+ We believe an act of **non-violent civil disobedience** cannot and will not go unnoticed. Join the action and be part of the change!

@@ -255,11 +255,16 @@ table.heroT {
         margin-bottom: 0.2em;
         font-family: Permian;
         text-transform: none;
-        font-size: .8em;
+        font-size: .7em;
     }
     
     li {
         margin-left: 2em;
+        margin-bottom: 0;
+    }
+    
+    ul, ol {
+        margin-bottom: 0.2em;
     }
     
     a {

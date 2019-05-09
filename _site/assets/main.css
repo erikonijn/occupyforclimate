@@ -169,9 +169,12 @@ table.heroT {
   margin-bottom: 0.2em;
   font-family: Permian;
   text-transform: none;
-  font-size: .8em; }
+  font-size: .7em; }
 .page li {
-  margin-left: 2em; }
+  margin-left: 2em;
+  margin-bottom: 0; }
+.page ul, .page ol {
+  margin-bottom: 0.2em; }
 .page a {
   color: #fff;
   background-color: #13972b;
