@@ -5,8 +5,6 @@ layout: page
 category: Home
 ---
 
-<!--## Support the climate movement-->
-
 <em> **Support the Climate Movement!** </em>
 
 Do you want to support the Youth For Climate movement? You can help us a lot with your donation! Every strike and every action needs a budget.

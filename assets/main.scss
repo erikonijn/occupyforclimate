@@ -200,7 +200,7 @@ table.heroT {
         max-width: 28em;
 //        text-align: left;
         display: inline-block;
-        padding-bottom: 2.5em;
+//        padding-bottom: .5em;
     }
     
     h1 {
@@ -334,6 +334,14 @@ table.heroT {
             width: 90%;
         }
     }
+}
+
+.footer {
+    margin-top: 1.5em;
+    font-size: .6em;
+    display: inline-block;
+    line-height: 1.2em;
+    color: #888;
 }
 
 #gototop {
