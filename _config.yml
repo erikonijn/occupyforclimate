@@ -19,7 +19,7 @@ email: e@ma.il
 description: 'Occupy for Climate.
 
 '
-baseurl: '/occupyforclimate'
+baseurl: ''
 url: ''
 permalink: pretty
 markdown: kramdown

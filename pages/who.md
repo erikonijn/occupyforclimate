@@ -5,4 +5,10 @@ layout: page
 category: Home
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida, sapien sed fermentum tempus, leo felis consequat felis, sed accumsan elit sem non augue. Aenean aliquet, nisi finibus eleifend semper, nulla lacus tincidunt arcu, in finibus nibh mi at eros. Proin laoreet arcu arcu, id convallis urna gravida at. Integer vestibulum pretium sem, lacinia blandit diam posuere non. Duis vel massa id justo malesuada scelerisque. Proin vitae massa sed nisi accumsan varius eget sit amet lectus. Vestibulum eget velit orci.
+### Who is welcome?
+
+Everyone! Everyone is welcome to participate. The movement is not just for students - **we are also calling upon parents, teachers, workers, adults, and anyone who lives in or around Luxembourg to join us.**
+
+### Who is organising this?
+
+The Occupy for Climate action is part of a global movement of climate activism fighting for a better future. A number of groups are helping organise this action, among which is Youth for Climate Luxembourg. We are a student-run organisation representing the younger generation in a conversation where we are regularly left out: the conversation about our future. We previously organised the student strike on March 15th, where around 15,000 students came together to make their voices heard.
