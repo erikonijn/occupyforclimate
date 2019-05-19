@@ -333,6 +333,18 @@ table.heroT {
             max-width: 22.2em;
             width: 90%;
         }
+        
+        &.small a {
+//            position: absolute;
+//            top: 50%;
+//            left: 50%;
+            
+            span {
+                display: inline-block;
+                font-size: .5em;
+                line-height: 1em;
+            }
+        }
     }
 }
 
@@ -344,30 +356,19 @@ table.heroT {
     color: #888;
 }
 
-#gototop {
-    background-color: $prime;
-    font-weight: 900;
-//    width: 7em;
-    padding: .625em .5em;
-    font-size: 1.2em;
-    position: fixed;
-    z-index: 0;
-    top: 0;
-    right: 0;
-    margin-top: 2em;
-    margin-right: 1.5em;
-    border-radius: 1px;
-    
-    a {
-        color: white;
+.press {
+    p {
+        margin-bottom: 0.4em;
     }
     
-    &:active {
-        background-color: $prime2;
+    h3 {
+        margin: 0.2em 0;
+    }
+    
+    .wrap {
+        margin-bottom: 2em;
     }
 }
-
-
 
 
 

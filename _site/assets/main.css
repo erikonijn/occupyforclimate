@@ -216,6 +216,10 @@ table.heroT {
   .action .amod.wide {
     max-width: 22.2em;
     width: 90%; }
+  .action .amod.small a span {
+    display: inline-block;
+    font-size: .5em;
+    line-height: 1em; }
 
 .footer {
   margin-top: 1.5em;
@@ -224,19 +228,9 @@ table.heroT {
   line-height: 1.2em;
   color: #888; }
 
-#gototop {
-  background-color: #13972b;
-  font-weight: 900;
-  padding: .625em .5em;
-  font-size: 1.2em;
-  position: fixed;
-  z-index: 0;
-  top: 0;
-  right: 0;
-  margin-top: 2em;
-  margin-right: 1.5em;
-  border-radius: 1px; }
-  #gototop a {
-    color: white; }
-  #gototop:active {
-    background-color: #167928; }
+.press p {
+  margin-bottom: 0.4em; }
+.press h3 {
+  margin: 0.2em 0; }
+.press .wrap {
+  margin-bottom: 2em; }

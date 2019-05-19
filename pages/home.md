@@ -15,6 +15,9 @@ category: Home
         <a href="get-involved">Get involved</a>
     </div>
     <div class="amod">
+        <a href="stencils">Stencils</a>
+    </div>
+    <div class="amod">
         <a href="donate">Donate</a>
     </div>
     <div class="amod">
@@ -25,6 +28,9 @@ category: Home
     </div>
     <div class="amod">
         <a href="who">Who</a>
+    </div>
+    <div class="amod small">
+        <a href="press/en"><span>Read our press release</span></a>
     </div>
 </div>
 
