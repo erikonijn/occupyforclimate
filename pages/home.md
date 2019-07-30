@@ -5,9 +5,9 @@ layout: default
 category: Home
 ---
 
-# Occupy for Climate
+# Earth Strike
 
-<span class="big">On 24 May,</span> join us in an act of <span class="sec">**civil disobedience**</span> in the name of our climate
+<span class="big">Starting 20 September,</span> join us in a <span class="sec--">week of actions</span> in the name of our climate, ending with a <span class="sec">general strike to save the planet</span>
 
 
 <div class="action">
@@ -30,7 +30,7 @@ category: Home
         <a href="who">Who</a>
     </div>
     <div class="amod small">
-        <a href="press/en"><span>Read our press release</span></a>
+        <a href="press/en"><span>Press Release</span></a>
     </div>
 </div>
 

@@ -3,11 +3,13 @@
 
 //Variables
 //$prime: #0f99d5;
-$prime: #13972b; //primary color
-//$prime2: #0d86ba;
-$prime2: #167928; //darker primary color, used for hover effect, click effects, etc
-$secondary: hsl(1, 75%, 50%);
-//$secondary: #be2927;
+$prime: #387740; //primary color
+//$prime: #13972b; //primary color
+$prime2: #164e1d; //darker primary color, used for hover effect, click effects, etc
+$prime3: #70ad78; //brighter primary color
+//$prime2: #167928; //darker primary color, used for hover effect, click effects, etc
+$secondary: #994c48;
+//$secondary: hsl(1, 75%, 50%);
 $tertiary: #4eb943;
 $tertiary2: #3b8b32;
 
@@ -25,11 +27,12 @@ $tertiary2: #3b8b32;
 body {
 //    display: flex;
     min-height: 100vh;
-    font-family: Futura;
-    text-transform: uppercase;
-    background-color: #fff;
+    font-family: 'Passion One', sans-serif;
+    font-weight: 500;
+//    text-transform: uppercase;
+    background-color: #1a1a1a;
 //    color: #383838;
-    color: #000;
+    color: #cccccc;
 }
 
 a {
@@ -37,20 +40,60 @@ a {
 }
 
 .titlebar {
-    min-height: 4em;
+//    min-height: 3em;
     z-index: 2;
     width: 100%;
     text-align: center;
 //    background-color: #191919;
-    background-color: #fff;
+//    background-color: #fff;
+    background-color: #000;
     position: relative;
     padding: 1em 0;
+    text-transform: uppercase;
+    
+    .titlewrap {
+        text-align: left;
+//        background-color: red;
+        display:inline-block;
+        max-width: 61.6em;
+        width: 90%;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        
+        .title-l {
+//            background-color: blue;
+            padding: 0;
+            display: inline-block;
+            width: 40%;
+        }
+        
+        .title-r {
+//            background-color: lightgreen;
+            padding: 0;
+            display: inline-block;
+            width: 60%;
+            text-align: right;
+            
+            a {
+                margin-left: 1em;
+            }
+        }
+    }
     
     a {
 //        color: #fff;
         color: $prime;
-        font-weight: 900;
-        font-size: 3.5em;
+        font-weight: 700;
+        font-size: 2em;
+//        margin-left: 0.7em;
+        transition: color 0.05s;
+        
+        &:hover {
+            color: $prime3;
+        }
     }
 }
 
@@ -58,7 +101,7 @@ a {
 
 .hero {
     box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.15);
-    background-color: #7a98cc;
+    background-color: #000;
     background-image: url(hero_lq.jpg);
 //    background-position: -50%;
     background-position: center center;
@@ -68,6 +111,7 @@ a {
     text-align: center;
     z-index: 999;
     position: relative;
+    line-height: 1.5em;
         
     .wrap {
         display: inline-block;
@@ -123,7 +167,7 @@ table.heroT {
             
             p {
                 font-size: 2.5em;
-                font-weight: 900;
+                font-weight: 700;
             }
             
             p.Tttl {
@@ -205,6 +249,7 @@ table.heroT {
     
     h1 {
         padding: .6em 0 .05em 0;
+        text-transform: uppercase;
 //        color: $secondary;
         color: $prime;
 //        text-decoration: underline;
@@ -213,24 +258,27 @@ table.heroT {
     
     p, li {
         padding-bottom: .1em;
-        line-height: 1.5em;
+//        line-height: 1.5em;
     }
     
     strong {
         color: $prime;
     }
     
-    .sec strong {
+    .sec {
         color: $secondary;
     }
     
     .big {
-        font-size: 1.5em;
+//        font-size: 1.5em;
+        text-transform: uppercase;
         font-style: normal;
+        
     }
     
     .fab {
-        color: black;
+//        color: black;
+        color: #cccccc;
     }
     
     &.page {
@@ -245,17 +293,23 @@ table.heroT {
     }
     
     h1 {
-        color: black;
+//        color: black;
+        color: #cccccc;
         text-decoration: underline;
         text-decoration-color: $prime;
     }
     
+    h1, h2, h3 {
+        font-weight: 500;
+    }
+    
     p, li {
-        line-height: 1.4em;
+        line-height: 1.2em;
         margin-bottom: 0.2em;
-        font-family: Permian;
+        font-family: Fira Sans;
         text-transform: none;
-        font-size: .7em;
+        font-size: .6em;
+        font-weight: 500;
     }
     
     li {
@@ -270,9 +324,11 @@ table.heroT {
     a {
         color: #fff;
         background-color: $prime;
-        font-family: Futura;
+        font-family: Passion One;
         text-transform: uppercase;
         padding: 0 .2em;
+        font-weight: 500;
+        font-size: 1.2em;
         
         &:hover {
 //            color: #000;
@@ -296,6 +352,10 @@ table.heroT {
         font-size: 1.4em;
     }
     
+    .titlebar a {
+        font-size: 1.25em;
+    }
+    
     #gototop {
         display: none;
     }
@@ -310,6 +370,7 @@ table.heroT {
         background-color: red;
         display: inline-block;
         margin: .6em .4em;
+        text-transform: uppercase;
         
         a {
             padding: .45em 0;
@@ -341,8 +402,8 @@ table.heroT {
             
             span {
                 display: inline-block;
-                font-size: .5em;
-                line-height: 1em;
+                font-size: .8em;
+//                line-height: 1em;
             }
         }
     }

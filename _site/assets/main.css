@@ -4,30 +4,54 @@
 
 body {
   min-height: 100vh;
-  font-family: Futura;
-  text-transform: uppercase;
-  background-color: #fff;
-  color: #000; }
+  font-family: 'Passion One', sans-serif;
+  font-weight: 500;
+  background-color: #1a1a1a;
+  color: #cccccc; }
 
 a {
   text-decoration: none; }
 
 .titlebar {
-  min-height: 4em;
   z-index: 2;
   width: 100%;
   text-align: center;
-  background-color: #fff;
+  background-color: #000;
   position: relative;
-  padding: 1em 0; }
+  padding: 1em 0;
+  text-transform: uppercase; }
+  .titlebar .titlewrap {
+    text-align: left;
+    display: inline-block;
+    max-width: 61.6em;
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto; }
+    .titlebar .titlewrap .title-l {
+      padding: 0;
+      display: inline-block;
+      width: 40%; }
+    .titlebar .titlewrap .title-r {
+      padding: 0;
+      display: inline-block;
+      width: 60%;
+      text-align: right; }
+      .titlebar .titlewrap .title-r a {
+        margin-left: 1em; }
   .titlebar a {
-    color: #13972b;
-    font-weight: 900;
-    font-size: 3.5em; }
+    color: #387740;
+    font-weight: 700;
+    font-size: 2em;
+    transition: color 0.05s; }
+    .titlebar a:hover {
+      color: #70ad78; }
 
 .hero {
   box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.15);
-  background-color: #7a98cc;
+  background-color: #000;
   background-image: url(hero_lq.jpg);
   background-position: center center;
   background-size: cover;
@@ -35,7 +59,8 @@ a {
   height: 100vh;
   text-align: center;
   z-index: 999;
-  position: relative; }
+  position: relative;
+  line-height: 1.5em; }
   .hero .wrap {
     display: inline-block;
     width: 100%;
@@ -81,7 +106,7 @@ table.heroT {
       transition: box-shadow .1s; }
       table.heroT td a p {
         font-size: 2.5em;
-        font-weight: 900; }
+        font-weight: 700; }
       table.heroT td a p.Tttl {
         font-size: 2em;
         font-weight: 100; }
@@ -93,7 +118,7 @@ table.heroT {
       box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25), inset 0px -9em 0px #4eb943; }
 
 .menu {
-  background-color: #df2320;
+  background-color: #994c48;
   height: 4em;
   z-index: 2;
   width: 100%;
@@ -117,9 +142,9 @@ table.heroT {
     height: 100%;
     cursor: pointer; }
     .menu a.donate {
-      background-color: #13972b; }
+      background-color: #387740; }
       .menu a.donate:hover {
-        background-color: #167928; }
+        background-color: #164e1d; }
     .menu a.blog {
       background-color: #4eb943; }
       .menu a.blog:hover {
@@ -140,19 +165,19 @@ table.heroT {
     display: inline-block; }
   .body h1 {
     padding: .6em 0 .05em 0;
-    color: #13972b; }
+    text-transform: uppercase;
+    color: #387740; }
   .body p, .body li {
-    padding-bottom: .1em;
-    line-height: 1.5em; }
+    padding-bottom: .1em; }
   .body strong {
-    color: #13972b; }
-  .body .sec strong {
-    color: #df2320; }
+    color: #387740; }
+  .body .sec {
+    color: #994c48; }
   .body .big {
-    font-size: 1.5em;
+    text-transform: uppercase;
     font-style: normal; }
   .body .fab {
-    color: black; }
+    color: #cccccc; }
   .body.page {
     height: 100%;
     margin-top: 0; }
@@ -160,15 +185,18 @@ table.heroT {
 .page .wrap {
   text-align: left; }
 .page h1 {
-  color: black;
+  color: #cccccc;
   text-decoration: underline;
-  text-decoration-color: #13972b; }
+  text-decoration-color: #387740; }
+.page h1, .page h2, .page h3 {
+  font-weight: 500; }
 .page p, .page li {
-  line-height: 1.4em;
+  line-height: 1.2em;
   margin-bottom: 0.2em;
-  font-family: Permian;
+  font-family: Fira Sans;
   text-transform: none;
-  font-size: .7em; }
+  font-size: .6em;
+  font-weight: 500; }
 .page li {
   margin-left: 2em;
   margin-bottom: 0; }
@@ -176,13 +204,15 @@ table.heroT {
   margin-bottom: 0.2em; }
 .page a {
   color: #fff;
-  background-color: #13972b;
-  font-family: Futura;
+  background-color: #387740;
+  font-family: Passion One;
   text-transform: uppercase;
-  padding: 0 .2em; }
+  padding: 0 .2em;
+  font-weight: 500;
+  font-size: 1.2em; }
   .page a:hover {
     background-color: #fff;
-    color: #13972b; }
+    color: #387740; }
 
 @media only screen and (max-width: 768px) {
   h1.herotxt {
@@ -194,32 +224,35 @@ table.heroT {
   .body {
     font-size: 1.4em; }
 
+  .titlebar a {
+    font-size: 1.25em; }
+
   #gototop {
     display: none; } }
 .action .amod {
   width: 10.5em;
   background-color: red;
   display: inline-block;
-  margin: .6em .4em; }
+  margin: .6em .4em;
+  text-transform: uppercase; }
   .action .amod a {
     padding: .45em 0;
     display: inline-block;
     width: 100%;
-    background-color: #13972b;
+    background-color: #387740;
     color: #fff;
     font-size: 2.2em; }
     .action .amod a:hover {
       background-color: #fff;
-      color: #13972b; }
+      color: #387740; }
     .action .amod a:active {
-      color: #167928; }
+      color: #164e1d; }
   .action .amod.wide {
     max-width: 22.2em;
     width: 90%; }
   .action .amod.small a span {
     display: inline-block;
-    font-size: .5em;
-    line-height: 1em; }
+    font-size: .8em; }
 
 .footer {
   margin-top: 1.5em;
