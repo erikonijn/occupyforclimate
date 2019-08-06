@@ -248,7 +248,7 @@ table.heroT {
     }
     
     h1 {
-        padding: .6em 0 .05em 0;
+        padding: .6em 0 .1em 0;
         text-transform: uppercase;
 //        color: $secondary;
         color: $prime;
@@ -304,11 +304,12 @@ table.heroT {
     }
     
     p, li {
-        line-height: 1.2em;
+//        line-height: 1.3em;
         margin-bottom: 0.2em;
         font-family: Fira Sans;
         text-transform: none;
-        font-size: .6em;
+        text-align: justify;
+        font-size: .62em;
         font-weight: 500;
     }
     
@@ -350,6 +351,11 @@ table.heroT {
     
     .body {
         font-size: 1.4em;
+    }
+    
+    .page p, .page li {
+        font-size: .8em;
+        line-height: 1.35em;
     }
     
     .titlebar a {
