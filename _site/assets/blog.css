@@ -1,9 +1,14 @@
 .body {
   margin-top: .7em; }
   .body h1 a {
-    color: #383838; }
+    color: #cccccc;
+    background-color: transparent;
+    padding: 0;
+    font-size: 1em; }
     .body h1 a:hover {
-      color: #3498db; }
+      text-decoration: underline;
+      text-decoration-color: #cccccc;
+      background-color: transparent; }
 
 .date {
   margin-bottom: .3em;

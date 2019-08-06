@@ -5,7 +5,7 @@ layout: default
 category: Home
 ---
 
-# Earth Strike
+# Youth for Climate
 
 <span class="big">Starting 20 September,</span> join us in a <span class="sec--">week of actions</span> in the name of our climate, ending with a <span class="sec">general strike to save the planet</span>
 
@@ -15,7 +15,7 @@ category: Home
         <a href="get-involved">Get involved</a>
     </div>
     <div class="amod">
-        <a href="stencils">Stencils</a>
+        <a href="news">News</a>
     </div>
     <div class="amod">
         <a href="donate">Donate</a>
@@ -38,5 +38,6 @@ category: Home
 
 [<i class="fab fa-facebook"></i>](https://www.facebook.com/events/430147554456065/){:target="_blank"}
 [<i class="fab fa-instagram"></i>](https://instagram.com/youthforclimatelux){:target="_blank"}
+[<i class="fab fa-twitter"></i>](https://twitter.com/YFCLuxembourg){:target="_blank"}
 
 <span class="footer">Youth for Climate Luxembourg is not affiliated with any political party. Photos © Marks Polakovs.</span>

@@ -230,7 +230,7 @@ table.heroT {
   #gototop {
     display: none; } }
 .action .amod {
-  width: 10.5em;
+  width: 9.5em;
   background-color: red;
   display: inline-block;
   margin: .6em .4em;
@@ -241,14 +241,14 @@ table.heroT {
     width: 100%;
     background-color: #387740;
     color: #fff;
-    font-size: 2.2em; }
+    font-size: 2.0em; }
     .action .amod a:hover {
       background-color: #fff;
       color: #387740; }
     .action .amod a:active {
       color: #164e1d; }
   .action .amod.wide {
-    max-width: 22.2em;
+    max-width: 20.2em;
     width: 90%; }
   .action .amod.small a span {
     display: inline-block;
