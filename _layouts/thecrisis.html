@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {% include headinfo.html %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/blog.css">
+    <!-- Essentially just the "page" layout, but with unique styling -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/thecrisis.css">
+</head>
+<body>
+    {% include header.html %}
+<!--    <div id="gototop"><a href="#">Back to top &#8593;</a></div>-->
+    <div class="body page">
+        <div class="wrap">
+            <h1>{{ page.title }}</h1>
+<!--            <p class="date">{{ page.date }}</p>-->
+            {{ content }}
+        </div>
+    </div>
+</body>
+</html>

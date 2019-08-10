@@ -2,13 +2,13 @@
   margin-top: .7em; }
   .body h1 a {
     color: #cccccc;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0);
     padding: 0;
     font-size: 1em; }
     .body h1 a:hover {
       text-decoration: underline;
       text-decoration-color: #cccccc;
-      background-color: transparent; }
+      background-color: rgba(0, 0, 0, 0); }
 
 .date {
   margin-bottom: .3em;

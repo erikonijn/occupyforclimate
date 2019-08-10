@@ -17,7 +17,7 @@ a {
   width: 100%;
   text-align: center;
   background-color: #000;
-  position: relative;
+  position: fixed;
   padding: 1em 0;
   text-transform: uppercase; }
   .titlebar .titlewrap {
@@ -41,6 +41,10 @@ a {
       text-align: right; }
       .titlebar .titlewrap .title-r a {
         margin-left: 1em; }
+      .titlebar .titlewrap .title-r .donate {
+        color: #1e93be; }
+        .titlebar .titlewrap .title-r .donate:hover {
+          color: #41b0d9; }
   .titlebar a {
     color: #387740;
     font-weight: 700;
@@ -49,10 +53,14 @@ a {
     .titlebar a:hover {
       color: #70ad78; }
 
+.spacer {
+  margin-bottom: 3em;
+  display: inline-block; }
+
 .hero {
   box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.15);
   background-color: #000;
-  background-image: url(hero_lq.jpg);
+  background-image: url(hero_lq_nologo.jpg);
   background-position: center center;
   background-size: cover;
   width: 100%;
@@ -80,77 +88,6 @@ h1.herotxt {
 
 h2.herotxt {
   font-size: 4em; }
-
-table.heroT {
-  width: 100%;
-  border-collapse: collapse;
-  margin-left: 5%; }
-  table.heroT td {
-    text-align: center;
-    width: 50%;
-    padding: 1.5em 0; }
-    table.heroT td a {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      /* align horizontal */
-      align-items: center;
-      /* align vertical */
-      color: #fff;
-      text-decoration: none;
-      background-color: #4eb943;
-      width: 90%;
-      height: 9em;
-      line-height: 2.25em;
-      box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25), inset 0px 0em 0px #ae43b9;
-      transition: box-shadow .1s; }
-      table.heroT td a p {
-        font-size: 2.5em;
-        font-weight: 700; }
-      table.heroT td a p.Tttl {
-        font-size: 2em;
-        font-weight: 100; }
-      table.heroT td a:hover {
-        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25), inset 0px 9em 0px #ae43b9; }
-  table.heroT .reddit a, table.heroT .ticket a {
-    background-color: #ae43b9; }
-    table.heroT .reddit a:hover, table.heroT .ticket a:hover {
-      box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25), inset 0px -9em 0px #4eb943; }
-
-.menu {
-  background-color: #994c48;
-  height: 4em;
-  z-index: 2;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  /* align horizontal */
-  align-items: center;
-  /* align vertical */
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
-  position: relative; }
-  .menu a {
-    color: white;
-    font-size: 3.1em;
-    padding: 0 .5em;
-    -webkit-box-sizing: border-box;
-    /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;
-    /* Firefox, other Gecko */
-    box-sizing: border-box;
-    /* Opera/IE 8+ */
-    height: 100%;
-    cursor: pointer; }
-    .menu a.donate {
-      background-color: #387740; }
-      .menu a.donate:hover {
-        background-color: #164e1d; }
-    .menu a.blog {
-      background-color: #4eb943; }
-      .menu a.blog:hover {
-        background-color: #3b8b32; }
-    .menu a:hover {
-      background-color: #bf682e; }
 
 .body {
   text-align: center;
@@ -215,11 +152,8 @@ table.heroT {
     color: #387740; }
 
 @media only screen and (max-width: 768px) {
-  h1.herotxt {
-    font-size: 4em; }
-
-  h2.herotxt {
-    font-size: 2em; }
+  .hero {
+    font-size: .5em; }
 
   .body {
     font-size: 1.4em; }
@@ -233,28 +167,38 @@ table.heroT {
 
   #gototop {
     display: none; } }
-.action .amod {
+.amod {
   width: 9.5em;
   background-color: red;
   display: inline-block;
   margin: .6em .4em;
   text-transform: uppercase; }
-  .action .amod a {
+  .amod.crisis {
+    font-size: 4em; }
+  .amod a {
     padding: .45em 0;
     display: inline-block;
     width: 100%;
     background-color: #387740;
     color: #fff;
     font-size: 2.0em; }
-    .action .amod a:hover {
+    .amod a:hover {
       background-color: #fff;
       color: #387740; }
-    .action .amod a:active {
+    .amod a:active {
       color: #164e1d; }
-  .action .amod.wide {
+    .amod a.crisis {
+      background-color: white;
+      color: #212121; }
+      .amod a.crisis:hover {
+        background-color: #333;
+        color: #fff; }
+      .amod a.crisis:active {
+        color: #387740; }
+  .amod.wide {
     max-width: 20.2em;
     width: 90%; }
-  .action .amod.small a span {
+  .amod.small a span {
     display: inline-block;
     font-size: .8em; }
 
@@ -263,7 +207,15 @@ table.heroT {
   font-size: .6em;
   display: inline-block;
   line-height: 1.2em;
-  color: #888; }
+  color: #888;
+  display: block; }
+  .footer a {
+    color: #888;
+    text-decoration: underline; }
+    .footer a:hover {
+      color: #999; }
+    .footer a:active {
+      color: #777; }
 
 .press p {
   margin-bottom: 0.4em; }
