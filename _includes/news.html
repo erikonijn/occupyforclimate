@@ -1,6 +1,6 @@
 {% for post in site.posts %}
     <h1><a href="{{ post.link  }}">{{ post.title }}</a></h1>
-    <p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
+    <p class="date">{{ post.date | date: '%B %d, %Y' }}, {{ post.source }}</p>
     {{ post.excerpt }}
-    <a href="{{ post.link }}">Continue reading...</a>
+<!--    <a href="{{ post.link }}">Continue reading...</a>-->
 {% endfor %}

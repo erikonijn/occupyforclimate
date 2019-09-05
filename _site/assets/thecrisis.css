@@ -1,7 +1,40 @@
-.spacer {
-  margin-bottom: 2em; }
-
 .wrap h1 {
   text-align: center;
   text-decoration: none;
-  font-size: 2.5em; }
+  font-size: 2.5em;
+  line-height: .8em;
+  transform-origin: center; }
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin-top: 1em;
+  margin-bottom: .6em; }
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.page p {
+  text-align: justify;
+  text-align-last: center;
+  font-size: .7em; }
+
+.action {
+  text-align: center;
+  border-collapse: collapse; }
+  .action a {
+    text-shadow: none;
+    padding: 0; }
+    .action a:hover {
+      text-shadow: none; }
+    .action a p {
+      text-transform: uppercase;
+      font-weight: 900;
+      font-size: 0.8em; }

@@ -4,10 +4,13 @@
 
 body {
   min-height: 100vh;
-  font-family: 'Passion One', sans-serif;
+  font-family: Graphik, sans-serif;
   font-weight: 500;
-  background-color: #1a1a1a;
-  color: #cccccc; }
+  background-color: #fff;
+  color: #000; }
+  body h1, body h2, body h3 {
+    transform: scaleX(0.8);
+    font-weight: 900; }
 
 a {
   text-decoration: none; }
@@ -16,42 +19,16 @@ a {
   z-index: 2;
   width: 100%;
   text-align: center;
-  background-color: #000;
-  position: fixed;
-  padding: 1em 0;
+  padding: .5em 0;
   text-transform: uppercase; }
-  .titlebar .titlewrap {
-    text-align: left;
-    display: inline-block;
-    max-width: 61.6em;
-    width: 90%;
-    display: flex;
-    flex-wrap: nowrap;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto; }
-    .titlebar .titlewrap .title-l {
-      padding: 0;
-      display: inline-block;
-      width: 40%; }
-    .titlebar .titlewrap .title-r {
-      padding: 0;
-      display: inline-block;
-      width: 60%;
-      text-align: right; }
-      .titlebar .titlewrap .title-r a {
-        margin-left: 1em; }
-      .titlebar .titlewrap .title-r .donate {
-        color: #1e93be; }
-        .titlebar .titlewrap .title-r .donate:hover {
-          color: #41b0d9; }
   .titlebar a {
-    color: #387740;
-    font-weight: 700;
-    font-size: 2em;
-    transition: color 0.05s; }
+    color: #08a635;
+    font-weight: 900;
+    display: inline-block;
+    font-size: 3.5em;
+    transform: scaleX(0.8); }
     .titlebar a:hover {
-      color: #70ad78; }
+      color: black; }
 
 .spacer {
   margin-bottom: 3em;
@@ -59,7 +36,7 @@ a {
 
 .hero {
   box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.15);
-  background-color: #000;
+  background-color: #068029;
   background-image: url(hero_lq_nologo.jpg);
   background-position: center center;
   background-size: cover;
@@ -68,7 +45,7 @@ a {
   text-align: center;
   z-index: 999;
   position: relative;
-  line-height: 1.5em; }
+  line-height: 1em; }
   .hero .wrap {
     display: inline-block;
     width: 100%;
@@ -83,7 +60,6 @@ a {
   line-height: 1em; }
 
 h1.herotxt {
-  font-weight: 700;
   font-size: 8em; }
 
 h2.herotxt {
@@ -93,7 +69,7 @@ h2.herotxt {
   text-align: center;
   width: 100%;
   height: 100vh;
-  font-size: 2.2em;
+  font-size: 2.4em;
   padding: 0;
   margin: 0; }
   .body .wrap {
@@ -101,55 +77,63 @@ h2.herotxt {
     max-width: 28em;
     display: inline-block; }
   .body h1 {
-    padding: .6em 0 .1em 0;
+    padding: .4em 0 .1em 0;
     text-transform: uppercase;
-    color: #387740; }
+    color: #08a635; }
   .body p, .body li {
-    padding-bottom: .1em; }
+    padding-bottom: .1em;
+    font-size: 0.8em; }
   .body strong {
-    color: #387740; }
+    color: #08a635; }
   .body .sec {
-    color: #994c48; }
+    color: #008ee6;
+    font-weight: bold; }
   .body .big {
     text-transform: uppercase;
-    font-style: normal; }
+    font-style: normal;
+    font-weight: bold; }
   .body .fab {
-    color: #cccccc; }
+    color: black; }
   .body.page {
     height: 100%;
     margin-top: 0; }
 
-.page .wrap {
-  text-align: left; }
-.page h1 {
-  color: #cccccc;
-  text-decoration: underline;
-  text-decoration-color: #387740; }
-.page h1, .page h2, .page h3 {
-  font-weight: 500; }
-.page p, .page li {
-  margin-bottom: 0.2em;
-  font-family: Fira Sans;
-  text-transform: none;
-  text-align: justify;
-  font-size: .62em;
-  font-weight: 500; }
-.page li {
-  margin-left: 2em;
-  margin-bottom: 0; }
-.page ul, .page ol {
-  margin-bottom: 0.2em; }
-.page a {
-  color: #fff;
-  background-color: #387740;
-  font-family: Passion One;
-  text-transform: uppercase;
-  padding: 0 .2em;
-  font-weight: 500;
-  font-size: 1.2em; }
-  .page a:hover {
-    background-color: #fff;
-    color: #387740; }
+.page {
+  font-size: 2.2em; }
+  .page .wrap {
+    text-align: left; }
+  .page h1 {
+    color: #000;
+    transform: scaleX(0.8);
+    transform-origin: left;
+    padding: 0; }
+  .page h2, .page h3 {
+    transform-origin: left;
+    text-transform: uppercase;
+    color: #08a635; }
+  .page p, .page li {
+    margin-bottom: 0.2em;
+    text-transform: none;
+    text-align: justify;
+    font-size: .62em;
+    font-weight: 500; }
+  .page li {
+    margin-left: 2em;
+    margin-bottom: 0; }
+  .page ul, .page ol {
+    margin-bottom: 0.2em; }
+  .page a {
+    color: #fff;
+    background-color: #08a635;
+    padding: 0 .2em;
+    font-weight: 500;
+    box-shadow: 0px 0px 0px #08a635;
+    text-shadow: 1px 1px 0 black;
+    transition: text-shadow .05s; }
+    .page a:hover {
+      background-color: #fff;
+      color: #08a635;
+      text-shadow: 1px 1px 0 black; }
 
 @media only screen and (max-width: 768px) {
   .hero {
@@ -163,10 +147,13 @@ h2.herotxt {
     line-height: 1.35em; }
 
   .titlebar a {
-    font-size: 1.25em; }
+    font-size: 2em; }
 
   #gototop {
     display: none; } }
+.action {
+  margin-top: .5em; }
+
 .amod {
   width: 9.5em;
   background-color: red;
@@ -176,28 +163,44 @@ h2.herotxt {
   .amod.crisis {
     font-size: 4em; }
   .amod a {
-    padding: .45em 0;
     display: inline-block;
     width: 100%;
-    background-color: #387740;
     color: #fff;
-    font-size: 2.0em; }
+    font-size: 2em;
+    background-color: #08a635;
+    font-weight: 900;
+    box-shadow: 0px 0px 0px black;
+    transition: box-shadow .05s; }
+    .amod a p {
+      padding: .45em 0;
+      transform: scaleX(0.8) translate(-10%, -5%);
+      width: 120%;
+      margin: 0; }
     .amod a:hover {
       background-color: #fff;
-      color: #387740; }
+      color: #08a635;
+      box-shadow: 4px 4px 0px #08a635;
+      transition: box-shadow .1s; }
     .amod a:active {
-      color: #164e1d; }
+      color: #044926; }
     .amod a.crisis {
+      color: #08a635;
       background-color: white;
-      color: #212121; }
+      font-size: 1.4em;
+      padding: .2em 0; }
+      .amod a.crisis p {
+        transform: scaleX(0.8) translate(-10%, -10%); }
       .amod a.crisis:hover {
-        background-color: #333;
-        color: #fff; }
+        background-color: #08a635;
+        color: #fff;
+        box-shadow: 10px 10px 0px black;
+        transition: box-shadow .1s; }
       .amod a.crisis:active {
-        color: #387740; }
+        color: #08a635; }
   .amod.wide {
     max-width: 20.2em;
-    width: 90%; }
+    width: 90%;
+    font-size: 1.2em; }
   .amod.small a span {
     display: inline-block;
     font-size: .8em; }
