@@ -3,12 +3,14 @@
 
 //Variables
 //$prime: #0f99d5;
-$prime: #13972b; //primary color
-//$prime2: #0d86ba;
-$prime2: #167928; //darker primary color, used for hover effect, click effects, etc
-$secondary: hsl(1, 75%, 50%);
-//$secondary: #be2927;
-$tertiary: #4eb943;
+$prime: #08a635; //primary color
+//$prime: #13972b; //primary color
+$prime2: #044926; //darker primary color, used for hover effect, click effects, etc
+$prime3: #70ad78; //brighter primary color
+//$prime2: #167928; //darker primary color, used for hover effect, click effects, etc
+$secondary: #008ee6;
+//$secondary: hsl(1, 75%, 50%);
+$tertiary: #2c30c6;
 $tertiary2: #3b8b32;
 
 @mixin border-box() {
@@ -23,13 +25,18 @@ $tertiary2: #3b8b32;
 }
 
 body {
-//    display: flex;
     min-height: 100vh;
-    font-family: Futura;
-    text-transform: uppercase;
+//    font-family: 'Passion One', sans-serif;
+    font-family: Graphik, sans-serif;
+    font-weight: 500;
     background-color: #fff;
 //    color: #383838;
     color: #000;
+    
+    h1, h2, h3 {
+        transform: scaleX(0.8);
+        font-weight: 900;
+    }
 }
 
 a {
@@ -37,29 +44,89 @@ a {
 }
 
 .titlebar {
-    min-height: 4em;
+//    min-height: 3em;
     z-index: 2;
     width: 100%;
     text-align: center;
 //    background-color: #191919;
-    background-color: #fff;
-    position: relative;
-    padding: 1em 0;
+//    background-color: #fff;
+//    background-color: #000;
+//    position: relative;
+//    position: fixed;
+    padding: .5em 0;
+    text-transform: uppercase;
+    
+//    .titlewrap {
+//        text-align: left;
+////        background-color: red;
+//        display:inline-block;
+//        max-width: 61.6em;
+//        width: 90%;
+//        display: flex;
+//        flex-wrap: nowrap;
+//        overflow: hidden;
+//        margin-left: auto;
+//        margin-right: auto;
+//        
+//        .title-l {
+////            background-color: blue;
+//            padding: 0;
+//            display: inline-block;
+//            width: 40%;
+//            transform: scaleX(0.8);
+//            transform-origin: center left;
+//            background-color: red;
+//        }
+//        
+//        .title-r {
+////            background-color: lightgreen;
+//            padding: 0;
+//            display: inline-block;
+//            width: 70%;
+//            background-color: red;
+//            text-align: right;
+//            transform: scaleX(0.8);
+//            transform-origin: center right;
+//            
+//            a {
+//                margin-left: 1em;
+//            }
+//            
+//            .donate {
+//                color: #1e93be;
+//                
+//                &:hover {
+//                    color: #41b0d9;
+//                }
+//            }
+//        }
+//    }
     
     a {
 //        color: #fff;
         color: $prime;
         font-weight: 900;
+//        transition: color 0.05s;
+        display: inline-block;
         font-size: 3.5em;
+        transform: scaleX(0.8);
+        
+        &:hover {
+            color: black;
+        }
     }
 }
 
+.spacer {
+    margin-bottom: 3em;
+    display: inline-block;
+}
 
 
 .hero {
     box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.15);
-    background-color: #7a98cc;
-    background-image: url(hero_lq.jpg);
+    background-color: #068029;
+    background-image: url(hero_lq_nologo.jpg);
 //    background-position: -50%;
     background-position: center center;
     background-size: cover;
@@ -68,6 +135,7 @@ a {
     text-align: center;
     z-index: 999;
     position: relative;
+    line-height: 1em;
         
     .wrap {
         display: inline-block;
@@ -85,10 +153,12 @@ a {
 .herotxt {
     color: #fff;
     line-height: 1em;
+    
+//    text-shadow: 3px 3px 0px black;
 }
 
 h1.herotxt {
-    font-weight: 700;
+//    font-weight: 700;
     font-size: 8em;
 }
 
@@ -96,102 +166,11 @@ h2.herotxt {
     font-size: 4em;
 }
 
-table.heroT {
-    width: 100%;
-    border-collapse: collapse;
-    margin-left: 5%;
-    
-    td {
-        text-align: center;
-//        border: 1px solid red;
-        width: 50%;
-        padding: 1.5em 0;
-        
-        a {
-            display: flex;
-            flex-direction: column;
-            justify-content: center; /* align horizontal */
-            align-items: center; /* align vertical */
-            color: #fff;
-            text-decoration: none;
-            background-color: $tertiary;
-            width: 90%;
-            height: 9em;
-            line-height: 2.25em;
-            box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25), inset 0px 0em 0px #ae43b9;
-            transition: box-shadow .1s;
-            
-            p {
-                font-size: 2.5em;
-                font-weight: 900;
-            }
-            
-            p.Tttl {
-                font-size: 2em;
-                font-weight: 100;
-            }
-            
-            &:hover {
-                box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25), inset 0px 9em 0px #ae43b9;
-            }
-        }
-    }
-    
-    .reddit a, .ticket a{
-        background-color: #ae43b9;
-            
-        &:hover {
-            box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25), inset 0px -9em 0px $tertiary;
-        }
-    }
-}
-
-.menu {
-    background-color: $secondary;
-    height: 4em;
-    z-index: 2;
-    width: 100%;
-    display: flex;
-    justify-content: center; /* align horizontal */
-    align-items: center; /* align vertical */
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
-    position: relative;
-    
-    a {
-        color: white;
-        font-size: 3.1em;
-        padding: 0 .5em;
-        @include border-box();
-        height: 100%;
-        cursor: pointer;
-        
-        &.donate {
-            background-color: $prime;
-            
-            &:hover {
-                background-color: $prime2;
-            }
-        }
-        
-        &.blog {
-            background-color: $tertiary;
-            
-            &:hover {
-                background-color: $tertiary2;
-            }
-        }
-        
-        &:hover {
-            background-color: #bf682e;
-        }
-    }
-}
-
 .body {
     text-align: center;
     width: 100%;
     height: 100vh;
-    font-size: 2.2em;
+    font-size: 2.4em;
     padding: 0;
     margin: 0;
     
@@ -204,33 +183,41 @@ table.heroT {
     }
     
     h1 {
-        padding: .6em 0 .05em 0;
+        padding: .4em 0 .1em 0;
+        text-transform: uppercase;
 //        color: $secondary;
         color: $prime;
 //        text-decoration: underline;
 //        text-decoration-color: $prime;
+//        text-shadow: 3px 3px 0px black;
     }
     
     p, li {
         padding-bottom: .1em;
-        line-height: 1.5em;
+        font-size: 0.8em;
+//        line-height: 1.5em;
     }
     
     strong {
         color: $prime;
     }
     
-    .sec strong {
+    .sec {
         color: $secondary;
+        font-weight: bold;
     }
     
     .big {
-        font-size: 1.5em;
+//        font-size: 1.5em;
+        text-transform: uppercase;
         font-style: normal;
+        font-weight: bold;
+        
     }
     
     .fab {
         color: black;
+//        color: #cccccc;
     }
     
     &.page {
@@ -240,22 +227,38 @@ table.heroT {
 }
 
 .page {
+    font-size: 2.2em;
+    
     .wrap {
         text-align: left;
     }
     
     h1 {
-        color: black;
-        text-decoration: underline;
-        text-decoration-color: $prime;
+//        color: #cccccc;
+//        text-decoration: underline;
+//        text-decoration-color: $prime;
+        color: #000;
+//        text-shadow: 4px 4px 0px $prime;
+//        transform: scaleX(0.8) translateX(-12.5%);
+        transform: scaleX(0.8);
+        transform-origin: left;
+        padding: 0;
+    }
+    
+    h2, h3 {
+        transform-origin: left;
+        text-transform: uppercase;
+        color: $prime;
     }
     
     p, li {
-        line-height: 1.4em;
+//        line-height: 1.3em;
         margin-bottom: 0.2em;
-        font-family: Permian;
+//        font-family: Fira Sans;
         text-transform: none;
-        font-size: .7em;
+        text-align: justify;
+        font-size: .62em;
+        font-weight: 500;
     }
     
     li {
@@ -270,30 +273,57 @@ table.heroT {
     a {
         color: #fff;
         background-color: $prime;
-        font-family: Futura;
-        text-transform: uppercase;
+//        text-transform: uppercase;
         padding: 0 .2em;
+        font-weight: 500;
+//        font-size: 1.2em;
+//        transform: scaleX(0.8);
+//        transform-origin: left;
+//        display: inline-block;
+//        font-weight: 900;
+        box-shadow: 0px 0px 0px $prime;
+        text-shadow: 1px 1px 0 black;
+        transition: text-shadow .05s;
         
         &:hover {
 //            color: #000;
             background-color: #fff;
             color: $prime;
+//            box-shadow: 2px 2px 0px $prime;
+            text-shadow: 1px 1px 0 black;
         }
     }
 }
 
 @media only screen and (max-width: 768px) {
  
-    h1.herotxt {
-        font-size: 4em;
-    }
+//    h1.herotxt {
+//        font-size: 4em;
+//    }
+//    
+//    h2.herotxt {
+//        font-size: 2em;
+//    }
+//    
+//    .amod.crisis {
+//        font-size: 2em;
+//    }
     
-    h2.herotxt {
-        font-size: 2em;
+    .hero {
+        font-size: .5em;
     }
     
     .body {
         font-size: 1.4em;
+    }
+    
+    .page p, .page li {
+        font-size: .8em;
+        line-height: 1.35em;
+    }
+    
+    .titlebar a {
+        font-size: 2em;
     }
     
     #gototop {
@@ -303,47 +333,89 @@ table.heroT {
 }
 
 .action {
-//    background-color: green;
+    margin-top: .5em;
+}
+
+.amod {
+    width: 9.5em;
+    background-color: red;
+    display: inline-block;
+    margin: .6em .4em;
+    text-transform: uppercase;
     
-    .amod {
-        width: 10.5em;
-        background-color: red;
+    &.crisis {
+        font-size: 4em;
+    }
+
+    a {
         display: inline-block;
-        margin: .6em .4em;
+        width: 100%;
+        color: #fff;
+        font-size: 2em;
+        background-color: $prime;
+        font-weight: 900;
+//        box-shadow: 4px 4px 0px black;
+        box-shadow: 0px 0px 0px black;
+        transition: box-shadow .05s;
         
-        a {
+        p {
             padding: .45em 0;
-            display: inline-block;
-            width: 100%;
-            background-color: $prime;
-            color: #fff;
-            font-size: 2.2em;
+            transform: scaleX(0.8) translate(-10%, -5%);
+//            text-shadow: 4px 4px 0px black;
+            width: 120%;
+            margin: 0;
+        }
+
+        &:hover {
+            background-color: #fff;
+            color: $prime;
+            box-shadow: 4px 4px 0px $prime;
+            transition: box-shadow .1s;
+        }
+
+        &:active {
+            color: $prime2;
+        }
+        
+        &.crisis {
+            color: $prime;
+            background-color: white;
+            font-size: 1.4em;
+            padding: .2em 0;
             
+            p {
+                transform: scaleX(0.8) translate(-10%, -10%);
+            }
+
             &:hover {
-                background-color: #fff;
+                background-color: $prime;
+//                color: $prime;
+                color: #fff;
+                box-shadow: 10px 10px 0px black;
+                transition: box-shadow .1s;
+            }
+
+            &:active {
                 color: $prime;
             }
-            
-            &:active {
-                color: $prime2;
-            }
         }
-        
-        &.wide {
-            max-width: 22.2em;
-            width: 90%;
-        }
-        
-        &.small a {
+    }
+
+    &.wide {
+        max-width: 20.2em;
+        width: 90%;
+        font-size: 1.2em;
+    }
+
+    &.small a {
 //            position: absolute;
 //            top: 50%;
 //            left: 50%;
-            
-            span {
-                display: inline-block;
-                font-size: .5em;
-                line-height: 1em;
-            }
+
+        span {
+            display: inline-block;
+            font-size: .8em;
+//                line-height: 1em;
         }
     }
 }
@@ -354,6 +426,20 @@ table.heroT {
     display: inline-block;
     line-height: 1.2em;
     color: #888;
+    display: block;
+    
+    a {
+        color: #888;
+        text-decoration: underline;
+        
+        &:hover {
+            color: #999;
+        }
+        
+        &:active {
+            color: #777;
+        }
+    }
 }
 
 .press {

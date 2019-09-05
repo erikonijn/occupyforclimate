@@ -5,32 +5,32 @@ layout: default
 category: Home
 ---
 
-# Occupy for Climate
+# Youth for Climate
 
-<span class="big">On 24 May,</span> join us in an act of <span class="sec">**civil disobedience**</span> in the name of our climate
+<span class="big">Starting 20 September,</span> join us in a <span class="sec--">week of actions</span> in the name of our climate, ending with a <span class="sec">mass mobilisation to save the planet!</span>
 
 
 <div class="action">
     <div class="amod wide">
-        <a href="get-involved">Get involved</a>
+        <a href="get-involved"><p>Get involved</p></a>
     </div>
     <div class="amod">
-        <a href="stencils">Stencils</a>
+        <a href="donate"><p>Donate</p></a>
     </div>
     <div class="amod">
-        <a href="donate">Donate</a>
+        <a href="what"><p>The Action</p></a>
     </div>
     <div class="amod">
-        <a href="why">Why</a>
+        <a href="why"><p>Why</p></a>
     </div>
     <div class="amod">
-        <a href="what">What</a>
+        <a href="news"><p>News</p></a>
     </div>
     <div class="amod">
-        <a href="who">Who</a>
+        <a href="who"><p>About us</p></a>
     </div>
-    <div class="amod small">
-        <a href="press/en"><span>Read our press release</span></a>
+    <div class="amod">
+        <a href="gallery"><p>Gallery</p></a>
     </div>
 </div>
 
@@ -38,5 +38,8 @@ category: Home
 
 [<i class="fab fa-facebook"></i>](https://www.facebook.com/events/430147554456065/){:target="_blank"}
 [<i class="fab fa-instagram"></i>](https://instagram.com/youthforclimatelux){:target="_blank"}
+[<i class="fab fa-twitter"></i>](https://twitter.com/YFCLuxembourg){:target="_blank"}
 
-<span class="footer">Youth for Climate Luxembourg is not affiliated with any political party. Photos © Marks Polakovs.</span>
+<span class="footer"><a href="press/en" class="press">Read our Press Release</a><br>
+    <a href="random">Give me a random page!</a><br>
+    Youth for Climate Luxembourg is not affiliated with any political party. Photos © Marks Polakovs.</span>

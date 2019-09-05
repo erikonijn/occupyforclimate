@@ -1,14 +1,12 @@
 ---
-title: WHO?
+title: About Us
 permalink: "/who"
 layout: page
 category: Home
 ---
 
-### Who is welcome?
+Youth for Climate Luxembourg is a youth-led movement of climate strikes. We go on school strike to demand urgent political action on the climate crisis. We are part of the international climate strike movement, we are apartisan and decentralised.
 
-Everyone! Everyone is welcome to participate. The movement is not just for students - **we are also calling upon parents, teachers, workers, adults, and anyone who lives in or around Luxembourg to join us.**
+All who join us on the streets are part of the climate strike movement. All who want to help organise are welcome to join our weekly meetings (find out more [here](/get-involved))
 
-### Who is organising this?
-
-The Occupy for Climate action is part of a global movement of climate activism fighting for a better future. A number of groups are helping organise this action, among which is Youth for Climate Luxembourg. We are a student-run organisation representing the younger generation in a conversation where we are regularly left out: the conversation about our future. We previously organised the student strike on March 15th, where around 15,000 students came together to make their voices heard.
+In Luxembourg we have been striking since 15th of March 2019, gathering thousands of protestors in the streets. However, even after garthering a considerable amount of media and political attention, greenhouse gas emissions are still on the rise and we can’t see the needed change - Time is running out, we need you!

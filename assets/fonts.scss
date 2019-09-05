@@ -1,27 +1,59 @@
 ---
 ---
 
-@font-face {
-    font-family: Futura;
-    src: url("FuturaStd-CondensedExtraBd.otf");
-//    src: "/assets/FuturaStd-CondensedExtraBd.otf";
-    font-weight:900;
-}
+//@font-face {
+//    font-family: Futura;
+//    src: url("FuturaStd-CondensedExtraBd.otf");
+////    src: "/assets/FuturaStd-CondensedExtraBd.otf";
+//    font-weight:900;
+//}
+//
+//@font-face {
+//    font-family: Permian;
+//    src: url("PermianSerifTypeface.otf");
+//    font-weight: normal;
+//}
+//
+//@font-face {
+//    font-family: Permian;
+//    src: url("PermianSerifTypeface-Bold.otf");
+//    font-weight: bold;
+//}
+//
+//@font-face {
+//    font-family: Permian;
+//    src: url("PermianSerifTypeface-Italic.otf");
+//    font-style: italic;
+//}
 
 @font-face {
-    font-family: Permian;
-    src: url("PermianSerifTypeface.otf");
+    font-family: Graphik;
+    src: url("Graphik/Graphik-Medium.woff2"), url("Graphik/Graphik-Medium.ttf");
     font-weight: normal;
 }
 
 @font-face {
-    font-family: Permian;
-    src: url("PermianSerifTypeface-Bold.otf");
+    font-family: Graphik;
+    src: url("Graphik/Graphik-MediumItalic.woff2"), url("Graphik/Graphik-MediumItalic.ttf");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Graphik;
+    src: url("Graphik/Graphik-Bold.woff2"), url("Graphik/Graphik-Bold.ttf");
     font-weight: bold;
 }
 
 @font-face {
-    font-family: Permian;
-    src: url("PermianSerifTypeface-Italic.otf");
+    font-family: Graphik;
+    src: url("Graphik/Graphik-BoldItalic.woff2"), url("Graphik/Graphik-BoldItalic.ttf");
+    font-weight: bold;
     font-style: italic;
+}
+
+@font-face {
+    font-family: Graphik;
+    src: url("Graphik/Graphik-Super.woff2"), url("Graphik/Graphik-Super.ttf");
+    font-weight: 900;
 }
