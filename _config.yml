@@ -1,5 +1,5 @@
 ---
-title: Occupy for Climate
+title: Youth for Climate Luxembourg
 timezone: UTC
 collections:
   posts:
@@ -16,7 +16,7 @@ defaults:
     layout: default
     permalink: "/:basename:output_ext"
 email: e@ma.il
-description: 'Occupy for Climate.
+description: 'Youth for Climate Luxembourg
 
 '
 baseurl: ''
