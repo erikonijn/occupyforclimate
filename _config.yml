@@ -23,9 +23,14 @@ baseurl: ''
 url: ''
 permalink: pretty
 markdown: kramdown
-gems:
+plugins:
 - jekyll-feed
 - jekyll-seo-tag
 exclude:
 - Gemfile
 - Gemfile.lock
+
+# Random redirect settings
+random_redirect:
+  pages: true
+  documents: true
