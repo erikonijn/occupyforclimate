@@ -1,14 +1,20 @@
 ---
-title: WHY?
+title: OUR DEMANDS
 permalink: "/why"
 layout: page
 category: Home
 ---
 
+***We demand that:***
+
+1. Luxembourg must achieve carbon neutrality by 2030.
+2. Luxembourg is not too small to make a difference: tax evasion and fossil fuel investments need to be stopped.
+3. Climate justice means international and generational solidarity.
+4. If the current system cannot meet our demands, we need a system change.
+
 ***We are facing a climate emergency.*** Our very own future lives are at stake. The government doesn't take the necessary measures to tackle climate breakdown.
 
-Even here in Luxembourg, we have started facing the first effects of our inaction.
-While the memories of last year’s terrible floods in the Müllerthal are still fresh in our minds, we have seen the ravaging effects of two major wildfires within a few days. This has not happened here in decades. In early August, another sign of erratic weather was shown by a sizable tornado overrunning southern Luxembourg and leaving enormous destruction behind. The climate crisis has shown itself to come at a high cost for all of us.
+Even here in Luxembourg, we have started facing the first effects of our inaction. While the memories of last year’s terrible floods in the Müllerthal are still fresh in our minds, we have seen the ravaging effects of two major wildfires within a few days. This has not happened here in decades. In early August, another sign of erratic weather was shown by a sizable tornado overrunning southern Luxembourg and leaving enormous destruction behind. The climate crisis has shown itself to come at a high cost for all of us.
 
 The big climate action UN Summit, taking place on 23rd September 2019, is humanity’s next big chance to turn things around. The world leaders will take important decisions; alliances will be created, and we have to make our voices heard to guarantee a safe and liveable future for all beings.
 

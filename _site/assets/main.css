@@ -117,6 +117,8 @@ h2.herotxt {
     text-align: justify;
     font-size: .62em;
     font-weight: 500; }
+    .page p::marker, .page li::marker {
+      font-weight: bold; }
   .page li {
     margin-left: 2em;
     margin-bottom: 0; }
@@ -142,7 +144,7 @@ h2.herotxt {
   .body {
     font-size: 1.4em; }
 
-  .page p, .page li {
+  .page p, .page li, .page li p {
     font-size: .8em;
     line-height: 1.35em; }
 

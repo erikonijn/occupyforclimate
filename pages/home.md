@@ -21,7 +21,7 @@ category: Home
         <a href="what"><p>The Action</p></a>
     </div>
     <div class="amod">
-        <a href="why"><p>Why</p></a>
+        <a href="why"><p>Demands</p></a>
     </div>
     <div class="amod">
         <a href="news"><p>News</p></a>
@@ -40,6 +40,6 @@ category: Home
 [<i class="fab fa-instagram"></i>](https://instagram.com/youthforclimatelux){:target="_blank"}
 [<i class="fab fa-twitter"></i>](https://twitter.com/YFCLuxembourg){:target="_blank"}
 
-<span class="footer"><a href="press/en" class="press">Read our Press Release</a><br>
+<span class="footer"><a href="press-20-27/en" class="press">Read our Press Release</a><br>
     <a href="random">Give me a random page!</a><br>
     Youth for Climate Luxembourg is not affiliated with any political party. Photos © Marks Polakovs.</span>

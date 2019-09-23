@@ -20,7 +20,7 @@ Every day of the week a different action group or NGO will have some kind of act
 **When, where, how?**  
 [Check here for a list of all events](https://www.facebook.com/pg/youthforclimateluxembourg/events/)
 
-### 27 September: General Climate Strike
+### 27 September: Mass  Mobilisation
 
 After months of student led mobilisations, a Luxembourgish climate coalition made up of different NGOs, activist groups and unions is calling for a mass demonstration in Luxembourg. In order to show that not only students are worried about the climate crisis, we need everyone to join the marches on September 27th.  
 **When, where, how?**  

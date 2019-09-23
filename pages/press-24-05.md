@@ -1,6 +1,6 @@
 ---
 title: PRESS RELEASE 15/05
-permalink: "/press/en"
+permalink: "/press-24-05/en"
 layout: press
 category: Home
 ---
