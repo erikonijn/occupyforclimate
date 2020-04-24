@@ -1,26 +1,11 @@
-.body {
-  margin-top: .7em; }
-  .body h1 {
-    line-height: .8em;
-    transform: scale(1, 1); }
-  .body h1 a {
-    color: #000;
-    background-color: rgba(0, 0, 0, 0);
-    text-shadow: 0px 0px 0px black;
-    padding: 0;
-    margin-top: .8em;
-    font-size: .7em;
-    font-weight: 900;
-    line-height: 1em;
-    transform: scaleX(0.8);
-    width: 125%;
-    display: inline-block;
-    transform-origin: left; }
-    .body h1 a:hover {
-      background-color: rgba(0, 0, 0, 0);
-      text-shadow: 0px 0px 0px black; }
+.body { margin-top: .7em; }
 
-.date {
-  margin-bottom: .3em;
-  color: #888;
-  font-size: .75em; }
+.body h1 { line-height: .8em; transform: scale(1, 1); }
+
+.body h1 a { color: #000; background-color: rgba(0, 0, 0, 0); text-shadow: 0px 0px 0px black; padding: 0; margin-top: .8em; font-size: .7em; font-weight: 900; line-height: 1em; transform: scaleX(0.8); width: 125%; display: inline-block; transform-origin: left; }
+
+.body h1 a:hover { background-color: rgba(0, 0, 0, 0); text-shadow: 0px 0px 0px black; }
+
+.date { margin-bottom: .3em; color: #888; font-size: .75em; }
+
+/*# sourceMappingURL=blog.css.map */

@@ -231,6 +231,7 @@ h2.herotxt {
     
     .wrap {
         text-align: left;
+        margin-bottom: 2em;
     }
     
     h1 {
@@ -263,6 +264,11 @@ h2.herotxt {
         &::marker {
             font-weight: bold;
         }
+        
+        ol li {
+            font-size: 1em;
+        }
+        
     }
     
     li {

@@ -18,6 +18,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Custom
+.jekyll-cache/
+
 # =========================
 # Operating System Files
 # =========================

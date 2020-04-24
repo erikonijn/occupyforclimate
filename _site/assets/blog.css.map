@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "blog.css",
+	"sources": [
+		"blog.scss"
+	],
+	"sourcesContent": [
+		".body {\n    margin-top: .7em;\n    \n    h1 {\n        line-height: .8em;\n        transform: scale(1,1);\n    }\n    \n    h1 a {\n//        color: #383838;\n        color: #000;\n        background-color: rgba(0,0,0,0);\n        text-shadow: 0px 0px 0px black;\n        padding: 0;\n        margin-top: .8em;\n        font-size: .7em;\n        font-weight: 900;\n        line-height: 1em;\n        transform: scaleX(0.8);\n        width: 125%;\n        display: inline-block;\n        transform-origin: left;\n        \n        &:hover {\n//            color: #3498db;\n//            text-decoration: underline;\n//            text-decoration-color: #cccccc;\n            background-color: rgba(0,0,0,0);\n            text-shadow: 0px 0px 0px black;\n        }\n    }\n}\n\n.date {\n    margin-bottom: .3em;\n    color: #888;\n    font-size: .75em;\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,KAAK,CAAC,EACF,UAAU,EAAE,IAAI,GA8BnB;;AA/BD,AAGI,KAHC,CAGD,EAAE,CAAC,EACC,WAAW,EAAE,IAAI,EACjB,SAAS,EAAE,WAAU,GACxB;;AANL,AAQI,KARC,CAQD,EAAE,CAAC,CAAC,CAAC,EAED,KAAK,EAAE,IAAI,EACX,gBAAgB,EAAE,gBAAa,EAC/B,WAAW,EAAE,iBAAiB,EAC9B,OAAO,EAAE,CAAC,EACV,UAAU,EAAE,IAAI,EAChB,SAAS,EAAE,IAAI,EACf,WAAW,EAAE,GAAG,EAChB,WAAW,EAAE,GAAG,EAChB,SAAS,EAAE,WAAW,EACtB,KAAK,EAAE,IAAI,EACX,OAAO,EAAE,YAAY,EACrB,gBAAgB,EAAE,IAAI,GASzB;;AA9BL,AAuBQ,KAvBH,CAQD,EAAE,CAAC,CAAC,CAeE,KAAK,CAAC,EAIJ,gBAAgB,EAAE,gBAAa,EAC/B,WAAW,EAAE,iBAAiB,GACjC;;AAIT,AAAA,KAAK,CAAC,EACF,aAAa,EAAE,IAAI,EACnB,KAAK,EAAE,IAAI,EACX,SAAS,EAAE,KAAK,GACnB"
+}

@@ -21,7 +21,7 @@ category: Home
         <a href="what"><p>The Action</p></a>
     </div>
     <div class="amod">
-        <a href="why"><p>Demands</p></a>
+        <a href="demands/en"><p>Demands</p></a>
     </div>
     <div class="amod">
         <a href="news"><p>News</p></a>
