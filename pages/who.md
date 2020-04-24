@@ -9,4 +9,4 @@ Youth for Climate Luxembourg is a youth-led movement of climate strikes. We go o
 
 All who join us on the streets are part of the climate strike movement. All who want to help organise are welcome to join our weekly meetings (find out more [here](/get-involved))
 
-In Luxembourg we have been striking since 15th of March 2019, gathering thousands of protestors in the streets. However, even after garthering a considerable amount of media and political attention, greenhouse gas emissions are still on the rise and we can’t see the needed change - Time is running out, we need you!
+In Luxembourg we have been striking since 15th of March 2019, gathering thousands of protestors in the streets. However, even after gathering a considerable amount of media and political attention, greenhouse gas emissions are still on the rise and we can’t see the needed change - Time is running out, we need you!
