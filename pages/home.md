@@ -38,8 +38,8 @@ category: Home
 
 [<i class="fab fa-facebook"></i>](https://www.facebook.com/events/430147554456065/){:target="_blank"}
 [<i class="fab fa-instagram"></i>](https://instagram.com/youthforclimatelux){:target="_blank"}
-[<i class="fab fa-twitter"></i>](https://twitter.com/YFCLuxembourg){:target="_blank"}
 
 <span class="footer"><a href="press-20-27/en" class="press">Read our Press Release</a><br>
     <a href="random">Give me a random page!</a><br>
-    Youth for Climate Luxembourg is not affiliated with any political party. Photos © Marks Polakovs.</span>
+    Youth for Climate Luxembourg is not affiliated with any political party. Photos © Marks Polakovs.
+</span>

@@ -17,7 +17,6 @@ To stay up to date on our next actions and meetings, you should follow us on soc
 
 - [Our Facebook](https://www.facebook.com/youthforclimateluxembourg/)
 - [Our Instagram](https://instagram.com/youthforclimatelux)
-- [Our Twitter](https://twitter.com/YFCLuxembourg)
 
 ### What can you do?
 
