@@ -9,7 +9,6 @@ $prime2: #044926; //darker primary color, used for hover effect, click effects, 
 $prime3: #70ad78; //brighter primary color
 //$prime2: #167928; //darker primary color, used for hover effect, click effects, etc
 $secondary: #008ee6;
-//$secondary: hsl(1, 75%, 50%);
 $tertiary: #2c30c6;
 $tertiary2: #3b8b32;
 
@@ -130,6 +129,7 @@ a {
 //    background-position: -50%;
     background-position: center center;
     background-size: cover;
+    background-attachment: fixed;
     width: 100%;
     height: 100vh;
     text-align: center;
@@ -215,7 +215,7 @@ h2.herotxt {
         
     }
     
-    .fab {
+    .fab, .fas, .far, .fal {
         color: black;
 //        color: #cccccc;
     }
@@ -235,12 +235,11 @@ h2.herotxt {
     }
     
     h1 {
-//        color: #cccccc;
-//        text-decoration: underline;
-//        text-decoration-color: $prime;
         color: #000;
 //        text-shadow: 4px 4px 0px $prime;
-//        transform: scaleX(0.8) translateX(-12.5%);
+        line-height: 1.1em;
+        margin-top: .2em;
+        margin-bottom: .2em;
         transform: scaleX(0.8);
         transform-origin: left;
         padding: 0;
@@ -295,11 +294,17 @@ h2.herotxt {
         text-shadow: 1px 1px 0 black;
         transition: text-shadow .05s;
         
+        &.link2 {
+            background-color: $secondary;
+            
+            &:hover {
+                color: $secondary;
+            }
+        }
+        
         &:hover {
-//            color: #000;
             background-color: #fff;
             color: $prime;
-//            box-shadow: 2px 2px 0px $prime;
             text-shadow: 1px 1px 0 black;
         }
     }

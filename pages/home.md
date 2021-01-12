@@ -7,8 +7,7 @@ category: Home
 
 # Youth for Climate
 
-<span class="big">Starting 20 September,</span> join us in a <span class="sec--">week of actions</span> in the name of our climate, ending with a <span class="sec">mass mobilisation to save the planet!</span>
-
+<span class="big">Youth for Climate Luxembourg</span> is a <span class="sec--">youth-led movement</span> of <span class="sec">climate strikes.</span>
 
 <div class="action">
     <div class="amod wide">
@@ -18,10 +17,10 @@ category: Home
         <a href="donate"><p>Donate</p></a>
     </div>
     <div class="amod">
-        <a href="what"><p>The Action</p></a>
+        <a href="action"><p>The Action</p></a>
     </div>
     <div class="amod">
-        <a href="demands/en"><p>Demands</p></a>
+        <a href="demands-covid"><p>Demands</p></a>
     </div>
     <div class="amod">
         <a href="news"><p>News</p></a>
@@ -36,10 +35,12 @@ category: Home
 
 # Find us online
 
-[<i class="fab fa-facebook"></i>](https://www.facebook.com/events/430147554456065/){:target="_blank"}
+[<i class="fab fa-facebook-square"></i>](https://www.facebook.com/events/430147554456065/){:target="_blank"}
 [<i class="fab fa-instagram"></i>](https://instagram.com/youthforclimatelux){:target="_blank"}
+[<i class="fas fa-envelope-square"></i>](mailto:youtforclimateluxembourg@gmail.com){:target="_blank"}
 
-<span class="footer"><a href="press-20-27/en" class="press">Read our Press Release</a><br>
-    <a href="random">Give me a random page!</a><br>
+<span class="footer">
+<!--    <a href="{{ site.baseurl }}/press-20-27/en" class="press">Read our Press Release</a><br>-->
+    <a href="{{ site.baseurl }}random">Give me a random page!</a><br>
     Youth for Climate Luxembourg is not affiliated with any political party. Photos © Marks Polakovs.
 </span>

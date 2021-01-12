@@ -13,10 +13,6 @@ category: Home
 
 **We need to act right now to stop burning fossil fuels** and ensure a rapid energy revolution with equity, reparations and climate justice at its heart.
 
-But it’s going to take all of us working together to succeed. Join the Climate Strikes starting on September 20 – three days out from the UN’s climate emergency summit and continuing on September 27.
-
-Millions of us will walk out from home, work, school or university to declare a climate emergency and show our politicians what action in line with climate science and justice means.
-
 The climate crisis won’t wait, so neither will we.
 
 <div class="action">

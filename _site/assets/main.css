@@ -14,7 +14,7 @@ a { text-decoration: none; }
 
 .spacer { margin-bottom: 3em; display: inline-block; }
 
-.hero { box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.15); background-color: #068029; background-image: url(hero_lq_nologo.jpg); background-position: center center; background-size: cover; width: 100%; height: 100vh; text-align: center; z-index: 999; position: relative; line-height: 1em; }
+.hero { box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.15); background-color: #068029; background-image: url(hero_lq_nologo.jpg); background-position: center center; background-size: cover; background-attachment: fixed; width: 100%; height: 100vh; text-align: center; z-index: 999; position: relative; line-height: 1em; }
 
 .hero .wrap { display: inline-block; width: 100%; position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 
@@ -38,7 +38,7 @@ h2.herotxt { font-size: 4em; }
 
 .body .big { text-transform: uppercase; font-style: normal; font-weight: bold; }
 
-.body .fab { color: black; }
+.body .fab, .body .fas, .body .far, .body .fal { color: black; }
 
 .body.page { height: 100%; margin-top: 0; }
 
@@ -46,7 +46,7 @@ h2.herotxt { font-size: 4em; }
 
 .page .wrap { text-align: left; margin-bottom: 2em; }
 
-.page h1 { color: #000; transform: scaleX(0.8); transform-origin: left; padding: 0; }
+.page h1 { color: #000; line-height: 1.1em; margin-top: .2em; margin-bottom: .2em; transform: scaleX(0.8); transform-origin: left; padding: 0; }
 
 .page h2, .page h3 { transform-origin: left; text-transform: uppercase; color: #08a635; }
 
@@ -61,6 +61,10 @@ h2.herotxt { font-size: 4em; }
 .page ul, .page ol { margin-bottom: 0.2em; }
 
 .page a { color: #fff; background-color: #08a635; padding: 0 .2em; font-weight: 500; box-shadow: 0px 0px 0px #08a635; text-shadow: 1px 1px 0 black; transition: text-shadow .05s; }
+
+.page a.link2 { background-color: #008ee6; }
+
+.page a.link2:hover { color: #008ee6; }
 
 .page a:hover { background-color: #fff; color: #08a635; text-shadow: 1px 1px 0 black; }
 
