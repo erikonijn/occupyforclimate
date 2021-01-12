@@ -17,19 +17,19 @@ category: Home
         <a href="donate"><p>Donate</p></a>
     </div>
     <div class="amod">
-        <a href="action"><p>The Action</p></a>
+        <a href="https://www.ara.lu/show/climate-hotline/"><p>RadioShow</p></a>
     </div>
     <div class="amod">
         <a href="demands-covid"><p>Demands</p></a>
     </div>
     <div class="amod">
-        <a href="news"><p>News</p></a>
-    </div>
-    <div class="amod">
         <a href="who"><p>About us</p></a>
     </div>
     <div class="amod">
-        <a href="gallery"><p>Gallery</p></a>
+        <a href="news"><p>In the News</p></a>
+    </div>
+    <div class="amod">
+        <a href="resources"><p>Resources</p></a>
     </div>
 </div>
 

@@ -217,7 +217,10 @@ h2.herotxt {
     
     .fab, .fas, .far, .fal {
         color: black;
-//        color: #cccccc;
+        
+        &:hover {
+            color: $prime2;
+        }
     }
     
     &.page {
