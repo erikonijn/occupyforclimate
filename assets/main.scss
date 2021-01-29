@@ -154,7 +154,21 @@ a {
     color: #fff;
     line-height: 1em;
     
-//    text-shadow: 3px 3px 0px black;
+    a {
+        color: white;
+        box-shadow: 0 -6px 0 white inset;
+        transition: 0.2s box-shadow, 0.1s color;
+        
+        &:hover {
+            color: $prime;
+            box-shadow: 0 -1.15em 0 white inset;
+            transition: 0.1s box-shadow, 0.1s color;
+        }
+        
+        &:active {
+            color: $prime2;
+        }
+    }
 }
 
 h1.herotxt {
@@ -164,6 +178,10 @@ h1.herotxt {
 
 h2.herotxt {
     font-size: 4em;
+}
+    
+#countdown{
+//    display: inline-block;
 }
 
 .body {
@@ -414,7 +432,7 @@ h2.herotxt {
             }
 
             &:active {
-                color: $prime;
+                color: $prime2;
             }
         }
     }

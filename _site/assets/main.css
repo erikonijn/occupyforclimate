@@ -20,6 +20,12 @@ a { text-decoration: none; }
 
 .herotxt { color: #fff; line-height: 1em; }
 
+.herotxt a { color: white; box-shadow: 0 -6px 0 white inset; transition: 0.2s box-shadow, 0.1s color; }
+
+.herotxt a:hover { color: #08a635; box-shadow: 0 -1.15em 0 white inset; transition: 0.1s box-shadow, 0.1s color; }
+
+.herotxt a:active { color: #044926; }
+
 h1.herotxt { font-size: 8em; }
 
 h2.herotxt { font-size: 4em; }
@@ -92,7 +98,7 @@ h2.herotxt { font-size: 4em; }
 
 .amod a.crisis:hover { background-color: #08a635; color: #fff; box-shadow: 10px 10px 0px black; transition: box-shadow .1s; }
 
-.amod a.crisis:active { color: #08a635; }
+.amod a.crisis:active { color: #044926; }
 
 .amod.wide { max-width: 20.2em; width: 90%; font-size: 1.2em; }
 

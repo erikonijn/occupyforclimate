@@ -1,29 +1,19 @@
 ---
-title: The Actions
+title: The Action
 permalink: "/action"
 layout: page
 category: Home
 ---
 
-### 20 September: Youth-led Climate Strike
+### AUTO-FESTIVAL
 
-**What is it?**  
-Students do not go to school and strike in the streets to express their anger towards large-scale inaction on climate change. Adults are encouraged to join the student strike; more people is more pressure! This strike is organised by YfCL. 3 days before the climate actionn UN Summit (taking place on September 23rd), we need to make our voices heard!
-**When, where, how?**  
-Join us on Friday 20th September at 10h in front of the Central train station. We will be marching through the city (add link to route) and finish in the Kinekskwiss, where we will have artists perform and some speeches.
-[See here for the 20 September Facebook event!](https://www.facebook.com/events/496490830917167/)
 
-### 20-27 September: Climate Action Week
+On the 30th of January, we are organizing an action in front of the Garage M. Losch Bonnevoie within the framework of the car festival that is currently taking place in Luxembourgish garages. We’re planning to be there from 10am - 12am, at 78, 90 Route de Thionville, 2610 Luxembourg.
 
-**What is it?**  
-Every day of the week a different action group or NGO will have some kind of action planned. This can range from a festival to a tree planting event to a civil disobedience action. There will be something for everyone!  
-**When, where, how?**  
-[Check here for a list of all events](https://www.facebook.com/pg/youthforclimateluxembourg/events/)
+**This action is dedicated against the car industry and the accompanying advertising.** Especially in times of a global pandemic, holding such an event is fraught with risk and endangers the health of our community. Moreover, it is questionable that this festival of all things can take place when all other events and major gatherings have been cancelled due to the COVID19 crisis. **From the perspective of the climate crisis, this festival represents an even greater threat.**
 
-### 27 September: Mass  Mobilisation
+It cannot be that such climate-damaging products are promoted in this way. We claim that serious steps need to be taken in the direction of climate policy and that each decision taken is completely in line with the Paris Climate Agreement: **We need to keep the rise of global temperatures below 1.5 °C.**
 
-After months of student led mobilisations, a Luxembourgish climate coalition made up of different NGOs, activist groups and unions is calling for a mass demonstration in Luxembourg. In order to show that not only students are worried about the climate crisis, we need everyone to join the marches on September 27th.  
-**When, where, how?**  
-On September 27th between 3 and 4pm, marches will start from different places in the city and meet up in the political centre of Luxembourg. [See here for the 27 September Facebook event!](https://www.facebook.com/events/412873679356531/)
+Our aim on Saturday is to make people aware of the negative consequences of their potential new purchase and to raise their awareness, as well as point at the failures of the auto industry. CO2 emissions have increased again during 2017 to 2019, reaching 122.4 grams of CO2 per kilometer. These numbers are above the EU target of 95 g CO2/km that phases-in this year.
 
-<!--You can join the XX led march from Kirchberg at XX pm. Or you can come to the meeting of XX at the train station at XX pm. The third option is the Youth-led demonstration starting at Stäreplaz at XX pm. -->
+The reasons for the increase in car emissions include the growing share of the sport utility vehicle (SUV) segment. Carbon emissions fell across all sectors in 2020 except for one - SUVs. It’s even estimated that SUVs have seen a slight increase of 0.5%. The market penetration of electric cars however remained slow in 2019.
