@@ -7,7 +7,7 @@ layout: page
 category: Home
 ---
 
-[Read it in French](fr) <a class="link2" href="{{site.baseurl}}demands">Read our normal demands</a>
+[Read it in French](fr) <a class="link2" href="{{site.baseurl}}/demands">Read our normal demands</a>
 
 ***In addition to an incredible effort for our public health, we demand that:***
 

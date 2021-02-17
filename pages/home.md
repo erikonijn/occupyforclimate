@@ -35,7 +35,7 @@ category: Home
 
 # Find us online
 
-[<i class="fab fa-facebook-square"></i>](https://www.facebook.com/events/430147554456065/){:target="_blank"}
+[<i class="fab fa-facebook-square"></i>](https://www.facebook.com/youthforclimateluxembourg/){:target="_blank"}
 [<i class="fab fa-instagram"></i>](https://instagram.com/youthforclimatelux){:target="_blank"}
 [<i class="fas fa-envelope-square"></i>](mailto:youtforclimateluxembourg@gmail.com){:target="_blank"}
 
