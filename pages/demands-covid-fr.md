@@ -6,7 +6,7 @@ layout: page
 category: Home
 ---
 
-[Read it in English](en) <a class="link2" href="{{site.baseurl}}demands">Read our normal demands</a>
+[Read it in English](en) <a class="link2" href="{{site.baseurl}}/demands">Read our normal demands</a>
 
 ***En plus des efforts incroyables au service de la santé publique, nous demandons que :***
 
