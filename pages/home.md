@@ -37,7 +37,7 @@ category: Home
 
 [<i class="fab fa-facebook-square"></i>](https://www.facebook.com/youthforclimateluxembourg/){:target="_blank"}
 [<i class="fab fa-instagram"></i>](https://instagram.com/youthforclimatelux){:target="_blank"}
-[<i class="fas fa-envelope-square"></i>](mailto:youtforclimateluxembourg@gmail.com){:target="_blank"}
+[<i class="fas fa-envelope-square"></i>](mailto:youthforclimateluxembourg@gmail.com){:target="_blank"}
 
 <span class="footer">
 <!--    <a href="{{ site.baseurl }}/press-20-27/en" class="press">Read our Press Release</a><br>-->
