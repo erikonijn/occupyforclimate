@@ -14,7 +14,7 @@ a { text-decoration: none; }
 
 .spacer { margin-bottom: 3em; display: inline-block; }
 
-.hero { box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.15); background-color: #068029; background-image: url(hero_lq_nologo.jpg); background-position: center center; background-size: cover; background-attachment: fixed; width: 100%; height: 100vh; text-align: center; z-index: 999; position: relative; line-height: 1em; }
+.hero { box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.15); background-color: #068029; background-image: url(hero_lq_nologo.jpg); background-position: center center; background-size: cover; background-attachment: fixed; width: 100%; height: 100vh; text-align: center; position: relative; line-height: 1em; }
 
 .hero .wrap { display: inline-block; width: 100%; position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 
@@ -30,7 +30,7 @@ h1.herotxt { font-size: 8em; }
 
 h2.herotxt { font-size: 4em; }
 
-.body { text-align: center; width: 100%; height: 100vh; font-size: 2.4em; padding: 0; margin: 0; }
+.body { text-align: center; width: 100%; height: 100vh; font-size: 2.4em; padding: 0; margin: 0; z-index: 9; background-color: white; position: absolute; }
 
 .body .wrap { width: 90%; max-width: 28em; display: inline-block; }
 
@@ -76,7 +76,7 @@ h2.herotxt { font-size: 4em; }
 
 .page a:hover { background-color: #fff; color: #08a635; text-shadow: 1px 1px 0 black; }
 
-@media only screen and (max-width: 768px) { .hero { font-size: .5em; } .body { font-size: 1.4em; } .page p, .page li, .page li p { font-size: .8em; line-height: 1.35em; } .titlebar a { font-size: 2em; } #gototop { display: none; } }
+@media only screen and (max-width: 768px) { .hero { font-size: .5em; } .body { font-size: 1.4em; } .page p, .page li, .page li p { font-size: .8em; line-height: 1.35em; } .titlebar a { font-size: 2em; } }
 
 .action { margin-top: .5em; }
 
@@ -102,7 +102,7 @@ h2.herotxt { font-size: 4em; }
 
 .amod.wide { max-width: 20.2em; width: 90%; font-size: 1.2em; }
 
-.amod.small a span { display: inline-block; font-size: .8em; }
+.amod.wide.letter { max-width: 30.2em; }
 
 .footer { margin-top: 1.5em; font-size: .6em; display: inline-block; line-height: 1.2em; color: #888; display: block; }
 
@@ -117,5 +117,13 @@ h2.herotxt { font-size: 4em; }
 .press h3 { margin: 0.2em 0; }
 
 .press .wrap { margin-bottom: 2em; }
+
+.lang { display: inline-block; position: fixed; top: 0; right: 0; margin: .5em 1.4em 0 0; }
+
+.lang a { font-size: 1.5em; color: white; font-weight: 500; margin-left: .2em; opacity: .75; transition: opacity .05s; }
+
+.lang a.active { opacity: 1; }
+
+.lang a:hover { opacity: 1; }
 
 /*# sourceMappingURL=main.css.map */

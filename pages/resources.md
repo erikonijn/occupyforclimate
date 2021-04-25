@@ -18,4 +18,4 @@ Stickers:
  - [Image]({{site.baseurl}}assets/404.png)
  
 Here's a "Kit for Activists" about protest strategies and things to know before going out there:
- - [Kit for Activists]({{site.baseurl}}assets/Kit-for-Activists.pdf)
+ - [Kit for Activists](/kit)

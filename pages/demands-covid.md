@@ -1,13 +1,11 @@
 ---
 title: DEMANDS DURING THE COVID-19 CRISIS
-permalink: "/demands-covid/en"
-redirect_from:
- - /demands-covid
+permalink: "/demands-covid"
 layout: page
 category: Home
 ---
 
-[Read it in French](fr) <a class="link2" href="{{site.baseurl}}/demands">Read our normal demands</a>
+[Read it in French](/fr/demands-covid) <a class="link2" href="/demands">Read our normal demands</a>
 
 ***In addition to an incredible effort for our public health, we demand that:***
 

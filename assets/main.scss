@@ -25,7 +25,6 @@ $tertiary2: #3b8b32;
 
 body {
     min-height: 100vh;
-//    font-family: 'Passion One', sans-serif;
     font-family: Graphikk, sans-serif;
     font-weight: 500;
     background-color: #fff;
@@ -47,59 +46,8 @@ a {
     z-index: 2;
     width: 100%;
     text-align: center;
-//    background-color: #191919;
-//    background-color: #fff;
-//    background-color: #000;
-//    position: relative;
-//    position: fixed;
     padding: .5em 0;
     text-transform: uppercase;
-    
-//    .titlewrap {
-//        text-align: left;
-////        background-color: red;
-//        display:inline-block;
-//        max-width: 61.6em;
-//        width: 90%;
-//        display: flex;
-//        flex-wrap: nowrap;
-//        overflow: hidden;
-//        margin-left: auto;
-//        margin-right: auto;
-//        
-//        .title-l {
-////            background-color: blue;
-//            padding: 0;
-//            display: inline-block;
-//            width: 40%;
-//            transform: scaleX(0.8);
-//            transform-origin: center left;
-//            background-color: red;
-//        }
-//        
-//        .title-r {
-////            background-color: lightgreen;
-//            padding: 0;
-//            display: inline-block;
-//            width: 70%;
-//            background-color: red;
-//            text-align: right;
-//            transform: scaleX(0.8);
-//            transform-origin: center right;
-//            
-//            a {
-//                margin-left: 1em;
-//            }
-//            
-//            .donate {
-//                color: #1e93be;
-//                
-//                &:hover {
-//                    color: #41b0d9;
-//                }
-//            }
-//        }
-//    }
     
     a {
 //        color: #fff;
@@ -133,7 +81,7 @@ a {
     width: 100%;
     height: 100vh;
     text-align: center;
-    z-index: 999;
+//    z-index: 3;
     position: relative;
     line-height: 1em;
         
@@ -191,6 +139,9 @@ h2.herotxt {
     font-size: 2.4em;
     padding: 0;
     margin: 0;
+    z-index: 9;
+    background-color: white;
+    position: absolute;
     
     .wrap {
         width: 90%;
@@ -203,17 +154,12 @@ h2.herotxt {
     h1 {
         padding: .4em 0 .1em 0;
         text-transform: uppercase;
-//        color: $secondary;
         color: $prime;
-//        text-decoration: underline;
-//        text-decoration-color: $prime;
-//        text-shadow: 3px 3px 0px black;
     }
     
     p, li {
         padding-bottom: .1em;
         font-size: 0.8em;
-//        line-height: 1.5em;
     }
     
     strong {
@@ -273,9 +219,7 @@ h2.herotxt {
     }
     
     p, li {
-//        line-height: 1.3em;
         margin-bottom: 0.2em;
-//        font-family: Fira Sans;
         text-transform: none;
         text-align: justify;
         font-size: .62em;
@@ -303,14 +247,8 @@ h2.herotxt {
     a {
         color: #fff;
         background-color: $prime;
-//        text-transform: uppercase;
         padding: 0 .2em;
         font-weight: 500;
-//        font-size: 1.2em;
-//        transform: scaleX(0.8);
-//        transform-origin: left;
-//        display: inline-block;
-//        font-weight: 900;
         box-shadow: 0px 0px 0px $prime;
         text-shadow: 1px 1px 0 black;
         transition: text-shadow .05s;
@@ -332,18 +270,6 @@ h2.herotxt {
 }
 
 @media only screen and (max-width: 768px) {
- 
-//    h1.herotxt {
-//        font-size: 4em;
-//    }
-//    
-//    h2.herotxt {
-//        font-size: 2em;
-//    }
-//    
-//    .amod.crisis {
-//        font-size: 2em;
-//    }
     
     .hero {
         font-size: .5em;
@@ -360,10 +286,6 @@ h2.herotxt {
     
     .titlebar a {
         font-size: 2em;
-    }
-    
-    #gototop {
-        display: none;
     }
  
 }
@@ -397,7 +319,6 @@ h2.herotxt {
         p {
             padding: .45em 0;
             transform: scaleX(0.8) translate(-10%, -5%);
-//            text-shadow: 4px 4px 0px black;
             width: 120%;
             margin: 0;
         }
@@ -441,17 +362,9 @@ h2.herotxt {
         max-width: 20.2em;
         width: 90%;
         font-size: 1.2em;
-    }
-
-    &.small a {
-//            position: absolute;
-//            top: 50%;
-//            left: 50%;
-
-        span {
-            display: inline-block;
-            font-size: .8em;
-//                line-height: 1em;
+        
+        &.letter {
+            max-width: 30.2em;
         }
     }
 }
@@ -492,6 +405,30 @@ h2.herotxt {
     }
 }
 
-
+.lang {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: .5em 1.4em 0 0;
+    
+    a {
+        font-size: 1.5em;
+        color: white;
+        font-weight: 500;
+        margin-left: .2em;
+        opacity: .75;
+        transition: opacity .05s;
+        
+        &.active {
+//            font-weight: 600;
+            opacity: 1;
+        }
+        
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
 
 

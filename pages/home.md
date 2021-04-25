@@ -10,8 +10,9 @@ category: Home
 <span class="big">Youth for Climate Luxembourg</span> is a <span class="sec--">youth-led movement</span> of <span class="sec">climate strikes.</span>
 
 <div class="action">
-    <div class="amod wide">
-        <a href="get-involved"><p>Get involved</p></a>
+    <div class="amod wide letter">
+<!--        <a href="get-involved"><p>Get involved</p></a>-->
+        <a href="letter"><p>Letter to the government</p></a>
     </div>
     <div class="amod">
         <a href="donate"><p>Donate</p></a>

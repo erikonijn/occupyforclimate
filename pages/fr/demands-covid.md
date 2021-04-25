@@ -1,12 +1,11 @@
 ---
 title: Revendications pendant la Crise du COVID-19
-permalink: "/demands-covid/fr"
-redirect_from:
+permalink: "/fr/demands-covid"
 layout: page
 category: Home
 ---
 
-[Read it in English](en) <a class="link2" href="{{site.baseurl}}/demands">Read our normal demands</a>
+[Read it in English](/demands-covid) <a class="link2" href="demands">Read our normal demands</a>
 
 ***En plus des efforts incroyables au service de la santé publique, nous demandons que :***
 
@@ -29,12 +28,12 @@ category: Home
     3. la justice climatique est synonyme de solidarité internationale et intergénérationnelle.
     4. si le système actuel ne peut pas répondre à nos demandes, nous avons besoin d'un changement de système.
 
-To read more about our demands, read our "Demands in Detail", where we provide elaborations, explanations, and examples:
+Pour en savoir plus sur nos demandes, lisez nos "Demandes en détail", où nous fournissons des explications, des précisions et des exemples :
 
  - [Demands in Detail (EN) - PDF](/assets/demands/Details Version EN.pdf)
  - [Demands in Detail (FR) - PDF](/assets/demands/Details Version FR.pdf)
  
- Or get these demands as a printable PDF:
+Ou obtenez ces demandes sous forme de PDF imprimable :
  
  - [Demands (EN) - PDF](/assets/demands/Version EN.pdf)
  - [Demands (FR) - PDF](/assets/demands/Version FR.pdf)

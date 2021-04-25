@@ -10,15 +10,21 @@
     <div class="hero">
         <div class="wrap">
             <h1 class="herotxt">YOUTH FOR CLIMATE</h1>
+<!--            COUNTDOWN:  -->
 <!--            <h2 class="herotxt">TIME UNTIL <a href="thecrisis">THE NEXT ACTION:</a></h2>-->
 <!--            <h2 class="herotxt" id="countdown">01:23:45:60</h2>-->
-            <div class="amod crisis">
+<!--            <div class="amod crisis">-->
 <!--                <a href="thecrisis" class="crisis"><p id="countdown">COUNTDOWN</p></a>-->
+<!--            </div>-->
+            
+<!--        NORMAL BUTTON:  -->
+            <div class="amod crisis">
                 <a href="thecrisis" class="crisis"><p>THE CRISIS</p></a>
             </div>
+            
         </div>
     </div>
-<!--    <div id="gototop"><a href="#">Back to top &#8593;</a></div>-->
+    {% include lang.html %}
     <div class="body">
         <div class="wrap">
             {% include home.html %}
@@ -26,4 +32,5 @@
     </div>
 </body>
 <script src="{{ site.baseurl }}/assets/countdown.js"></script>
+<script src="{{ site.baseurl }}/assets/lang.js"></script>
 </html>
