@@ -1,5 +1,5 @@
 ---
-title: NOS DEMANDES
+title: NOS REVENDICATIONS
 permalink: "/fr/demands"
 layout: page
 category: Home
