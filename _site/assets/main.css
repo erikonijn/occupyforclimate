@@ -120,10 +120,12 @@ h2.herotxt { font-size: 4em; }
 
 .lang { display: inline-block; position: fixed; top: 0; right: 0; margin: .5em 1.4em 0 0; }
 
-.lang a { font-size: 1.5em; color: white; font-weight: 500; margin-left: .2em; opacity: .75; transition: opacity .05s; }
+.lang a { font-size: 1.5em; color: white; font-weight: 500; margin-left: .2em; opacity: .65; transition: opacity .05s; cursor: pointer; }
 
 .lang a.active { opacity: 1; }
 
 .lang a:hover { opacity: 1; }
+
+.lang.black a { color: black; }
 
 /*# sourceMappingURL=main.css.map */

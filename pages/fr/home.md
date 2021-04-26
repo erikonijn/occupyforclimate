@@ -12,7 +12,7 @@ category: Home
 <div class="action">
     <div class="amod wide letter">
 <!--        <a href="get-involved"><p>S’ENGAGER</p></a>-->
-        <a href="letter"><p>Letter to the government</p></a>
+        <a href="letter"><p>Lettre au gouvernement</p></a>
     </div>
     <div class="amod">
         <a href="donate"><p>FAIRE UN DON</p></a>

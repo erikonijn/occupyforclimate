@@ -417,8 +417,9 @@ h2.herotxt {
         color: white;
         font-weight: 500;
         margin-left: .2em;
-        opacity: .75;
+        opacity: .65;
         transition: opacity .05s;
+        cursor: pointer;
         
         &.active {
 //            font-weight: 600;
@@ -428,6 +429,10 @@ h2.herotxt {
         &:hover {
             opacity: 1;
         }
+    }
+    
+    &.black a {
+        color: black;
     }
 }
 
