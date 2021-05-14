@@ -38,6 +38,8 @@ category: Home
 
 [<i class="fab fa-facebook-square"></i>](https://www.facebook.com/youthforclimateluxembourg/){:target="_blank"}
 [<i class="fab fa-instagram"></i>](https://instagram.com/youthforclimatelux){:target="_blank"}
+[<i class="fab fa-twitter"></i>](https://twitter.com/yfcluxembourg){:target="_blank"}
+[<i class="fab fa-tiktok"></i>](https://tiktok.com/@youthforclimatelux){:target="_blank"}
 [<i class="fas fa-envelope-square"></i>](mailto:youthforclimateluxembourg@gmail.com){:target="_blank"}
 
 <span class="footer">
