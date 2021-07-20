@@ -9,7 +9,7 @@ category: Home
 
 Do you want to support the Youth For Climate movement? You can help us a lot with your donation! Every strike and every action needs a budget.
 
-The easiest way to support us is by going to our [GoFundMe](https://www.gofundme.com/f/20th-of-september-action-funding).
+The easiest way to support us is by going to our [GoFundMe](https://www.gofundme.com/f/support-youth-for-climate-luxembourg).
 
 If you instead want to make a bank transfer, here is how:
 
