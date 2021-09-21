@@ -21,7 +21,7 @@ category: Home
         <a href="https://www.ara.lu/show/climate-hotline/"><p>ÉMISSION DE RADIO</p></a>
     </div>
     <div class="amod">
-        <a href="demands-covid"><p>REVEND- ICATIONS</p></a>
+        <a href="demands-covid"><p>REVEN- DICATIONS</p></a>
     </div>
     <div class="amod">
         <a href="who"><p>À PROPOS DE NOUS</p></a>
