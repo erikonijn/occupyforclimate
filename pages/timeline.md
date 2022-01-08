@@ -25,7 +25,7 @@ Timeline of YfCL's actions:
     <meta itemprop="name" content="{{ site.title }}">
     <meta name="theme-color" content="{{ site.color }}">
 
-    <link href="{{ site.baseurl }}/assets/css/timeline.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/timeline.css" rel="stylesheet">
     <style>body{background:{{site.color}};}</style>
 </head>
 
