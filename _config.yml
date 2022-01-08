@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  timeline-steps:
+    title: Steps
+    output: true
 defaults:
 - scope:
     path: pages
