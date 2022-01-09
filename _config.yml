@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
   timeline-steps:
-    title: Steps
+    title: TimelineSteps
     output: true
 defaults:
 - scope:
@@ -18,7 +18,7 @@ defaults:
   values:
     layout: default
     permalink: "/:basename:output_ext"
-email: e@ma.il
+email: youthforclimateluxembourg@gmail.com
 description: 'Youth for Climate Luxembourg
 
 '
