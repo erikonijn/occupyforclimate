@@ -295,7 +295,8 @@ h2.herotxt {
 }
 
 .amod {
-    width: 9.5em;
+    min-width: 9.5em;
+    max-width: 9.5em;
     background-color: red;
     display: inline-block;
     margin: .6em .4em;
@@ -303,6 +304,7 @@ h2.herotxt {
     
     &.crisis {
         font-size: 4em;
+        max-width: 11.8em;
     }
 
     a {
@@ -366,6 +368,10 @@ h2.herotxt {
         &.letter {
             max-width: 30.2em;
         }
+    }
+    
+    &.countdown {
+//        max-width: 20.2em;
     }
 }
 

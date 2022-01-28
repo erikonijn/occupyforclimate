@@ -1,4 +1,4 @@
-date = new Date("Sep 24, 2021 10:00:00").getTime();
+date = new Date("Mar 25, 2022 12:00:00").getTime();
 
 function clock(){
     
@@ -17,7 +17,7 @@ function clock(){
     if(mins<10){mins = "0"+mins};
     if(sec<10){sec = "0"+sec};
     
-    countdown = (days + ":" + hrs + ":" + mins + ":" + sec);
+    countdown = (days + " days, " + hrs + ":" + mins + ":" + sec);
     text.innerHTML = countdown;
     
     if (delta < 0) {
