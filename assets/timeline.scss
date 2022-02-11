@@ -1,4 +1,3 @@
-
 html{-webkit-box-sizing:border-box}
 .card-panel{padding:24px}
 
@@ -21,10 +20,9 @@ background-color: #0000 !important;
 
 .item {
 padding-top:100px;
-min-height:150px;
 position:relative;
-width:100%;
 }
+
 .item:before,.last-item:after {
 background:#fff;
 border:8px solid #000;

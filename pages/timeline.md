@@ -1,33 +1,11 @@
 ---
 title: Timeline
 permalink: "/timeline"
-layout: page
+layout: timeline
 category: Home
 ---
 
 Timeline of YfCL's actions:
-
-
-
-
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-
- <title>{{ site.title }}</title>
-    
-    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
-
-    <meta name="description" content="{{ site.description }}">
-    <meta name="robots" content="index,follow">
-    <meta itemprop="name" content="{{ site.title }}">
-    <meta name="theme-color" content="{{ site.color }}">
-
-    <link href="{{ site.baseurl }}/assets/timeline.css" rel="stylesheet">
-    <style>body{background:{{site.color}};}</style>
-</head>
 
 
 
@@ -44,8 +22,10 @@ Timeline of YfCL's actions:
             <p>
                 {{ step.content }}
             </p>
-	   <img src="{{ site.url }}{{ site.baseurl }}/timeline-steps/pictures/{{ step.picture }}" alt="{{ step.picture }}" height="inherit">
+	   <img src="{{ site.url }}{{ site.baseurl }}/timeline-steps/pictures/{{ step.picture }}" alt="{{ step.picture }}" height="inherit" onerror="this.style.display='none'">
 	</div>
     </div>
     {% endfor %}
 </div>
+
+
