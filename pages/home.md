@@ -11,6 +11,9 @@ category: Home
 
 <div class="action">
     <div class="amod wide letter">
+        <a href="restopolis"><p>Position on Restopolis</p></a>
+    </div>
+    <div class="amod wide letter">
 <!--        <a href="get-involved"><p>Get involved</p></a>-->
         <a href="letter"><p>Letter to the government</p></a>
     </div>
