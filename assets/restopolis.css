@@ -1,0 +1,101 @@
+:root {
+	--wi: 16cm;
+}
+
+@media screen and (max-width: 500px){
+        :root {
+                --wi: 90vw;
+        }
+}
+
+
+.body {
+	text-align: center;
+	width: 100%;
+	line-height: 1.15;
+}
+
+.body .wrap {
+	width: var(--wi);
+}
+
+.body .title{
+	font-family: 'Arial MT', sans-serif;
+	color: black;
+	font-size: 26.66px;
+}
+
+.body .title2{
+	font-family: 'Arial MT', sans-serif;
+	color: #92D050;
+	font-size: 23.33px;
+	font-weight: bold;
+}
+
+.body .par {
+        font-family: 'Calibri', sans-serif;
+        color: black;
+        font-size: 16px;
+	margin-bottom: 15px;
+}
+
+.body .lis {
+        font-family: 'Calibri', sans-serif;
+        color: black;
+        font-size: 16px;
+}
+
+.body .listt {
+        font-family: 'Calibri', sans-serif;
+        font-style: italic;
+        color: #92D050;
+        font-size: 16px;
+}
+
+.body .gree {
+        font-family: 'Calibri', sans-serif;
+        color: #92D050;
+        font-size: 16px;
+        font-weight: normal;
+}
+
+.page p::marker, .page li::marker {
+	font-weight: normal;
+}
+
+.page li {
+	margin-bottom: 10px;
+}
+
+th {
+	text-align: center;
+	font-family: 'Calibri', sans-serif;
+	color: black;
+	font-size: 14px;
+	font-weight: normal;
+	background: rgba(0,0,0,0);
+}
+
+.page a {
+	background: rgba(0,0,0,0);
+        text-align: center;
+        font-family: 'Calibri', sans-serif;
+        color: black;
+        font-size: 14px;
+        font-weight: normal;
+	box-shadow: 0px 0px 0px transparent;
+    	text-shadow: 0px 0px 0 transparent;
+	padding: 0;
+}
+
+.page a:hover {
+	background-color: transparent;
+	text-shadow: 1px 1px 0 transparent;
+	color: black;
+	font-weight: normal;
+}
+table {
+	width: var(--wi);
+}
+
+
