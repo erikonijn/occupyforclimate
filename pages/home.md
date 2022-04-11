@@ -13,10 +13,10 @@ category: Home
     <div class="amod wide letter">
         <a href="restopolis"><p>Restopolis Demands</p></a>
     </div>
-    <div class="amod wide letter">
+<!--    <div class="amod wide letter"> -->
 <!--        <a href="get-involved"><p>Get involved</p></a>-->
-        <a href="letter"><p>Letter to the government</p></a>
-    </div>
+<!--        <a href="letter"><p>Letter to the government</p></a> -->
+<!--    </div> -->
     <div class="amod">
         <a href="donate"><p>Donate</p></a>
     </div>

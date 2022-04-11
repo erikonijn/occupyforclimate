@@ -19,3 +19,6 @@ Autocollants :
  
 Voici un "Kit pour activistes" sur les stratégies de protestation et les choses à savoir avant d'y aller :
  - [Kit pour les activists](/kit)
+
+Ici, un lien vers la cronologie des actions de YfCL :
+ - [Timeline](/timeline)
