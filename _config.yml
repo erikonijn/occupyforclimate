@@ -19,9 +19,9 @@ defaults:
     layout: default
     permalink: "/:basename:output_ext"
 email: youthforclimateluxembourg@gmail.com
-description: 'Youth for Climate Luxembourg
+description: 'Youth for Climate Luxembourg'
 
-'
+
 baseurl: ''
 #baseurl: '/occupyforclimate/'
 url: ''
@@ -39,3 +39,7 @@ exclude:
 random_redirect:
   pages: true
   documents: true
+
+
+# Analytics
+google_analytics: G-TBLNJDEHJS
