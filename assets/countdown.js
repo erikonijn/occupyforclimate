@@ -1,4 +1,4 @@
-date = new Date("Jul 28, 2022 10:00:00").getTime();
+date = new Date("Sep 23, 2022 15:00:00").getTime();
 
 function clock(){
     
